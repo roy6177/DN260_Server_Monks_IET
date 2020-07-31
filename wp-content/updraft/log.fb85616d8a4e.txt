@@ -1,0 +1,505 @@
+0000.002 () Opened log file at time: Thu, 09 Jul 2020 21:20:22 +0000 on https://inditribes.co.in
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 102.2M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0001.098 () Free space on disk containing Updraft's temporary directory: 2499069.9 MB
+0000.004 () Opened log file at time: Thu, 09 Jul 2020 21:21:11 +0000 on https://inditribes.co.in
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.4M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.995 () Free space on disk containing Updraft's temporary directory: 2499068.4 MB
+0001.020 () Ensuring WP_Filesystem is setup for a restore
+0001.021 () WP_Filesystem is setup and ready for a restore
+0001.920 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpmb_options","wpmb_users","wpmb_usermeta","wpmb_actionscheduler_actions","wpmb_actionscheduler_claims","wpmb_actionscheduler_groups","wpmb_actionscheduler_logs","wpmb_commentmeta","wpmb_comments","wpmb_links","wpmb_postmeta","wpmb_posts","wpmb_term_relationships","wpmb_term_taxonomy","wpmb_termmeta","wpmb_terms","wpmb_wc_category_lookup","wpmb_wc_product_meta_lookup","wpmb_wc_tax_rate_classes","wpmb_woocommerce_order_itemmeta","wpmb_woocommerce_payment_tokenmeta","wpmb_COD_settings","wpmb_cartflows_ca_cart_abandonment","wpmb_cartflows_ca_email_history","wpmb_cartflows_ca_email_templates","wpmb_cartflows_ca_email_templates_meta","wpmb_dokan_announcement","wpmb_dokan_orders","wpmb_dokan_refund","wpmb_dokan_vendor_balance","wpmb_dokan_withdraw","wpmb_mailchimp_carts","wpmb_mailchimp_jobs","wpmb_social_users","wpmb_tinvwl_analytics","wpmb_tinvwl_items","wpmb_tinvwl_lists","wpmb_tm_taskmeta","wpmb_tm_tasks","wpmb_user_registration_sessions","wpmb_wc_admin_note_actions","wpmb_wc_admin_notes","wpmb_wc_cancel_orders","wpmb_wc_customer_lookup","wpmb_wc_download_log","wpmb_wc_order_coupon_lookup","wpmb_wc_order_product_lookup","wpmb_wc_order_stats","wpmb_wc_order_tax_lookup","wpmb_wc_webhooks","wpmb_wcfm_daily_analysis","wpmb_wcfm_detailed_analysis","wpmb_wcfm_enquiries","wpmb_wcfm_enquiries_meta","wpmb_wcfm_enquiries_response","wpmb_wcfm_enquiries_response_meta","wpmb_wcfm_fbc_chat_rows","wpmb_wcfm_fbc_chat_sessions","wpmb_wcfm_fbc_chat_visitors","wpmb_wcfm_fbc_offline_messages","wpmb_wcfm_following_followers","wpmb_wcfm_marketplace_orders","wpmb_wcfm_marketplace_orders_meta","wpmb_wcfm_marketplace_product_multivendor","wpmb_wcfm_marketplace_refund_request","wpmb_wcfm_marketplace_refund_request_meta","wpmb_wcfm_marketplace_reverse_withdrawal","wpmb_wcfm_marketplace_reverse_withdrawal_meta","wpmb_wcfm_marketplace_review_rating_meta","wpmb_wcfm_marketplace_reviews","wpmb_wcfm_marketplace_reviews_response","wpmb_wcfm_marketplace_reviews_response_meta","wpmb_wcfm_marketplace_shipping_zone_locations","wpmb_wcfm_marketplace_shipping_zone_methods","wpmb_wcfm_marketplace_store_taxonomies","wpmb_wcfm_marketplace_vendor_ledger","wpmb_wcfm_marketplace_withdraw_request","wpmb_wcfm_marketplace_withdraw_request_meta","wpmb_wcfm_membership_subscription","wpmb_wcfm_messages","wpmb_wcfm_messages_modifier","wpmb_wcfm_messages_stat","wpmb_wcfm_support","wpmb_wcfm_support_meta","wpmb_wcfm_support_response","wpmb_wcfm_support_response_meta","wpmb_wcpdf_invoice_number","wpmb_woocommerce_api_keys","wpmb_woocommerce_attribute_taxonomies","wpmb_woocommerce_downloadable_product_permissions","wpmb_woocommerce_log","wpmb_woocommerce_order_items","wpmb_woocommerce_payment_tokens","wpmb_woocommerce_sessions","wpmb_woocommerce_shipping_zone_locations","wpmb_woocommerce_shipping_zone_methods","wpmb_woocommerce_shipping_zones","wpmb_woocommerce_tax_rate_locations","wpmb_woocommerce_tax_rates","wpmb_wpforms_tasks_meta","wpmb_wpnotif_mobile_otp","wpmb_wpnotif_newsletter","wpmb_wpnotif_newsletter_history","wpmb_wpnotif_newsletter_send_history","wpmb_wpnotif_sms_app","wpmb_wpnotif_subgroups","wpmb_wpnotif_subgroups_subscribers","wpmb_wpnotif_subscribers","wpmb_wpnotif_whatsapp_messages","wpmb_wpuf_subscribers","wpmb_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0001.928 () Entity: db
+0001.928 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-db.gz, type=db, info=a:0:{}, last_one=)
+0001.929 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-db.gz, 1 Mb)
+0001.960 () Database successfully unpacked
+0001.961 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.961 () Using direct MySQL access; value of use_mysqli is: 1
+0001.961 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION
+0001.995 () Max packet size: 256 MB
+0001.995 () Entering maintenance mode
+0001.996 () Enabling Maintenance mode&#8230;
+0001.998 () Backup of: https://inditribes.co.in
+0001.998 () Content URL: https://inditribes.co.in/wp-content
+0001.998 () Uploads URL: https://inditribes.co.in/wp-content/uploads
+0001.998 () Old table prefix: wpmb_
+0001.998 () Site information: multisite=0
+0002.002 () New table prefix: wpmb_
+0002.019 () Processing table (MyISAM): wpmb_options
+0003.552 () Restoring prior UD configuration (table: wpmb_options; keys: 4)
+0004.077 () Processing table (MyISAM): wpmb_users
+0004.108 () Processing table (MyISAM): wpmb_usermeta
+0004.163 () Processing table (MyISAM): wpmb_actionscheduler_actions
+0004.277 () Processing table (MyISAM): wpmb_actionscheduler_claims
+0004.295 () Processing table (MyISAM): wpmb_actionscheduler_groups
+0004.318 () Processing table (MyISAM): wpmb_actionscheduler_logs
+0004.403 () Processing table (MyISAM): wpmb_commentmeta
+0004.435 () Processing table (MyISAM): wpmb_comments
+0004.486 () Processing table (MyISAM): wpmb_links
+0004.505 () Processing table (MyISAM): wpmb_postmeta
+0009.215 () Processing table (MyISAM): wpmb_posts
+0009.248 () Database queries processed: 50 in 7.28 seconds
+0009.618 () Processing table (MyISAM): wpmb_term_relationships
+0009.658 () Processing table (MyISAM): wpmb_term_taxonomy
+0009.713 () Processing table (MyISAM): wpmb_termmeta
+0009.783 () Processing table (MyISAM): wpmb_terms
+0009.836 () Processing table (MyISAM): wpmb_wc_category_lookup
+0009.881 () Processing table (MyISAM): wpmb_wc_product_meta_lookup
+0009.933 () Processing table (MyISAM): wpmb_wc_tax_rate_classes
+0009.970 () Processing table (MyISAM): wpmb_woocommerce_order_itemmeta
+0010.032 () Processing table (MyISAM): wpmb_woocommerce_payment_tokenmeta
+0010.086 () Processing table (InnoDB): wpmb_COD_settings
+0010.132 () Processing table (MyISAM): wpmb_cartflows_ca_cart_abandonment
+0010.158 () Processing table (MyISAM): wpmb_cartflows_ca_email_history
+0010.179 () Processing table (MyISAM): wpmb_cartflows_ca_email_templates
+0010.206 () Processing table (MyISAM): wpmb_cartflows_ca_email_templates_meta
+0010.241 () Processing table (InnoDB): wpmb_dokan_announcement
+0010.277 () Processing table (InnoDB): wpmb_dokan_orders
+0010.314 () Processing table (InnoDB): wpmb_dokan_refund
+0010.343 () Database queries processed: 100 in 8.38 seconds
+0010.344 () Processing table (InnoDB): wpmb_dokan_vendor_balance
+0010.374 () Processing table (InnoDB): wpmb_dokan_withdraw
+0010.394 () Processing table (MyISAM): wpmb_mailchimp_carts
+0010.431 () Processing table (MyISAM): wpmb_mailchimp_jobs
+0010.478 () Processing table (MyISAM): wpmb_social_users
+0010.497 () Processing table (MyISAM): wpmb_tinvwl_analytics
+0010.533 () Processing table (MyISAM): wpmb_tinvwl_items
+0010.565 () Processing table (MyISAM): wpmb_tinvwl_lists
+0010.601 () Processing table (MyISAM): wpmb_tm_taskmeta
+0010.630 () Processing table (MyISAM): wpmb_tm_tasks
+0010.661 () Processing table (MyISAM): wpmb_user_registration_sessions
+0010.684 () Processing table (MyISAM): wpmb_wc_admin_note_actions
+0010.715 () Processing table (MyISAM): wpmb_wc_admin_notes
+0010.762 () Processing table (InnoDB): wpmb_wc_cancel_orders
+0010.807 () Processing table (MyISAM): wpmb_wc_customer_lookup
+0010.836 () Processing table (MyISAM): wpmb_wc_download_log
+0010.860 () Processing table (MyISAM): wpmb_wc_order_coupon_lookup
+0010.880 () Processing table (MyISAM): wpmb_wc_order_product_lookup
+0010.926 () Processing table (MyISAM): wpmb_wc_order_stats
+0010.972 () Processing table (MyISAM): wpmb_wc_order_tax_lookup
+0010.983 () Database queries processed: 150 in 9.02 seconds
+0010.993 () Processing table (MyISAM): wpmb_wc_webhooks
+0011.007 () Processing table (MyISAM): wpmb_wcfm_daily_analysis
+0011.035 () Processing table (MyISAM): wpmb_wcfm_detailed_analysis
+0011.095 () Processing table (MyISAM): wpmb_wcfm_enquiries
+0011.132 () Processing table (MyISAM): wpmb_wcfm_enquiries_meta
+0011.164 () Processing table (MyISAM): wpmb_wcfm_enquiries_response
+0011.205 () Processing table (MyISAM): wpmb_wcfm_enquiries_response_meta
+0011.224 () Processing table (MyISAM): wpmb_wcfm_fbc_chat_rows
+0011.242 () Processing table (MyISAM): wpmb_wcfm_fbc_chat_sessions
+0011.258 () Processing table (MyISAM): wpmb_wcfm_fbc_chat_visitors
+0011.275 () Processing table (MyISAM): wpmb_wcfm_fbc_offline_messages
+0011.291 () Processing table (MyISAM): wpmb_wcfm_following_followers
+0011.312 () Processing table (MyISAM): wpmb_wcfm_marketplace_orders
+0011.358 () Processing table (MyISAM): wpmb_wcfm_marketplace_orders_meta
+0011.393 () Processing table (MyISAM): wpmb_wcfm_marketplace_product_multivendor
+0011.411 () Processing table (MyISAM): wpmb_wcfm_marketplace_refund_request
+0011.442 () Processing table (MyISAM): wpmb_wcfm_marketplace_refund_request_meta
+0011.468 () Processing table (MyISAM): wpmb_wcfm_marketplace_reverse_withdrawal
+0011.485 () Processing table (MyISAM): wpmb_wcfm_marketplace_reverse_withdrawal_meta
+0011.498 () Processing table (MyISAM): wpmb_wcfm_marketplace_review_rating_meta
+0011.516 () Processing table (MyISAM): wpmb_wcfm_marketplace_reviews
+0011.525 () Database queries processed: 200 in 9.56 seconds
+0011.534 () Processing table (MyISAM): wpmb_wcfm_marketplace_reviews_response
+0011.552 () Processing table (MyISAM): wpmb_wcfm_marketplace_reviews_response_meta
+0011.570 () Processing table (MyISAM): wpmb_wcfm_marketplace_shipping_zone_locations
+0011.589 () Processing table (MyISAM): wpmb_wcfm_marketplace_shipping_zone_methods
+0011.608 () Processing table (MyISAM): wpmb_wcfm_marketplace_store_taxonomies
+0011.640 () Processing table (MyISAM): wpmb_wcfm_marketplace_vendor_ledger
+0011.686 () Processing table (MyISAM): wpmb_wcfm_marketplace_withdraw_request
+0011.712 () Processing table (MyISAM): wpmb_wcfm_marketplace_withdraw_request_meta
+0011.733 () Processing table (MyISAM): wpmb_wcfm_membership_subscription
+0011.764 () Processing table (MyISAM): wpmb_wcfm_messages
+0011.802 () Processing table (MyISAM): wpmb_wcfm_messages_modifier
+0011.827 () Processing table (MyISAM): wpmb_wcfm_messages_stat
+0011.843 () Processing table (MyISAM): wpmb_wcfm_support
+0011.860 () Processing table (MyISAM): wpmb_wcfm_support_meta
+0011.878 () Processing table (MyISAM): wpmb_wcfm_support_response
+0011.900 () Processing table (MyISAM): wpmb_wcfm_support_response_meta
+0011.922 () Processing table (MyISAM): wpmb_wcpdf_invoice_number
+0011.951 () Processing table (MyISAM): wpmb_woocommerce_api_keys
+0011.990 () Processing table (MyISAM): wpmb_woocommerce_attribute_taxonomies
+0012.033 () Processing table (MyISAM): wpmb_woocommerce_downloadable_product_permissions
+0012.068 () Processing table (MyISAM): wpmb_woocommerce_log
+0012.087 () Database queries processed: 250 in 10.12 seconds
+0012.098 () Processing table (MyISAM): wpmb_woocommerce_order_items
+0012.150 () Processing table (MyISAM): wpmb_woocommerce_payment_tokens
+0012.175 () Processing table (MyISAM): wpmb_woocommerce_sessions
+0012.216 () Processing table (MyISAM): wpmb_woocommerce_shipping_zone_locations
+0012.247 () Processing table (MyISAM): wpmb_woocommerce_shipping_zone_methods
+0012.276 () Processing table (MyISAM): wpmb_woocommerce_shipping_zones
+0012.320 () Processing table (MyISAM): wpmb_woocommerce_tax_rate_locations
+0012.337 () Processing table (MyISAM): wpmb_woocommerce_tax_rates
+0012.357 () Processing table (MyISAM): wpmb_wpforms_tasks_meta
+0012.391 () Processing table (MyISAM): wpmb_wpnotif_mobile_otp
+0012.410 () Processing table (MyISAM): wpmb_wpnotif_newsletter
+0012.455 () Processing table (MyISAM): wpmb_wpnotif_newsletter_history
+0012.491 () Processing table (MyISAM): wpmb_wpnotif_newsletter_send_history
+0012.513 () Processing table (MyISAM): wpmb_wpnotif_sms_app
+0012.529 () Processing table (MyISAM): wpmb_wpnotif_subgroups
+0012.547 () Processing table (MyISAM): wpmb_wpnotif_subgroups_subscribers
+0012.567 () Processing table (MyISAM): wpmb_wpnotif_subscribers
+0012.593 () Processing table (MyISAM): wpmb_wpnotif_whatsapp_messages
+0012.625 () Processing table (MyISAM): wpmb_wpuf_subscribers
+0012.645 () Processing table (MyISAM): wpmb_wpuf_transaction
+0012.684 () UpdraftPlus Vault: this site has not been connected - check your settings
+0016.462 () Unlocking database and leaving maintenance mode
+0016.462 () Disabling Maintenance mode&#8230;
+0016.462 () Finished: lines processed: 300 in 14.49 seconds
+0016.463 () Cleaning up rubbish...
+0016.501 () Entity: plugins
+0016.501 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:45:"/home/inditclx/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0016.501 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-plugins.zip, 87.8 MB)
+0016.504 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-plugins.zip to /home/inditclx/public_html/wp-content/upgrade/37b8a998/ using UpdraftPlus_ZipArchive, starting index 0
+0019.162 () Unzip progress: 3732 out of 21318 files (7 KB, plugins/wc-multivendor-marketplace/controllers/reviews/wcfmmp-controller-reviews-submit.php)
+0019.977 () Unzip progress: 4733 out of 21318 files (13.5 MB, plugins/wc-multivendor-marketplace/lang/wc-multivendor-marketplace-zh_TW.mo)
+0020.377 () Unzip progress: 5734 out of 21318 files (27.9 MB, plugins/updraftplus/includes/Google/Service.php)
+0021.310 () Unzip progress: 6735 out of 21318 files (47.4 MB, plugins/updraftplus/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/InvalidArgumentException.php)
+0022.077 () Unzip progress: 7736 out of 21318 files (53.1 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/S3/Sync/DownloadSyncBuilder.php)
+0023.086 () Unzip progress: 8737 out of 21318 files (79.1 MB, plugins/nextend-facebook-connect/includes/user.php)
+0023.365 () Unzip progress: 9738 out of 21318 files (85.7 MB, plugins/woocommerce/templates/cart/cart-item-data.php)
+0025.032 () Unzip progress: 10739 out of 21318 files (105.8 MB, plugins/woocommerce/packages/woocommerce-blocks/src/Utils/BlocksWpQuery.php)
+0025.964 () Unzip progress: 11740 out of 21318 files (127.6 MB, plugins/user-registration/includes/form/class-ur-form-field-select.php)
+0026.998 () Unzip progress: 12741 out of 21318 files (153.5 MB, plugins/elementor/includes/managers/controls.php)
+0028.140 () Unzip progress: 13742 out of 21318 files (187 MB, plugins/woovina-elementor-widgets/assets/js/modal.min.js)
+0028.961 () Unzip progress: 14743 out of 21318 files (199.4 MB, plugins/jetpack/class.jetpack-affiliate.php)
+0029.959 () Unzip progress: 15744 out of 21318 files (219.6 MB, plugins/jetpack/modules/woocommerce-analytics.php)
+0030.230 () Unzip progress: 16745 out of 21318 files (226.7 MB, plugins/wpnotif/gateways/aws/Aws/MockHandler.php)
+0031.220 () Unzip progress: 17746 out of 21318 files (242.8 MB, plugins/wpnotif/gateways/alibaba/alibabacloud/client/src/Signature/BearerTokenSignature.php)
+0031.932 () Unzip progress: 18747 out of 21318 files (249.1 MB, plugins/wpnotif/libphonenumber/giggsey/libphonenumber-for-php/src/carrier/data/en/53.php)
+0032.304 () Unzip progress: 19748 out of 21318 files (264.2 MB, plugins/wpnotif/Twilio/Rest/Chat/V2/Service/Channel/WebhookContext.php)
+0033.042 () Unzip progress: 20749 out of 21318 files (268.5 MB, plugins/wpnotif/Twilio/Tests/Integration/Pricing/V1/Voice/NumberTest.php)
+0033.192 () Unzip progress: 21318 out of 21318 files (271.4 MB, plugins/wpnotif/Twilio/Tests/Integration/Api/V2010/Account/AuthorizedConnectAppTest.php)
+0033.246 () Moving old data: filesystem method / updraft_dir is potentially possible
+0033.247 () Moving old data: can potentially use wp_filesystem method / -old
+0033.247 () Moving old data out of the way...
+0037.034 () Top-level entities being moved: wc-multivendor-marketplace, mailchimp-for-woocommerce, wc-frontend-manager-elementor, cartflows, recently-viewed-products, ajax-search-for-woocommerce, woo-refund-and-exchange-lite, updraftplus, mobile-login-woocommerce, woovina-extra, nextend-facebook-connect, mobile-login-woocommerce.zip, wc-cancel-order, nav-menu-roles, wc-multivendor-membership, woocommerce, kadence-woocommerce-email-designer, user-registration, custom-order-statuses-woocommerce, social-login-woocommerce, wpforms-lite, woo-cart-abandonment-recovery, elementor, index.php, woowbot-woocommerce-chatbot, yith-woocommerce-compare, akismet, sms-alert, wc-frontend-manager, aftership-woocommerce-tracking, woovina-elementor-widgets, woocommerce-services, mojo-marketplace-wp-plugin, jetpack, woocommerce-gateway-stripe, woo-gst, easy-login-woocommerce-premium, woovina-custom-sidebar, hello.php, google-language-translator, ti-woocommerce-wishlist, wpnotif
+0037.050 () Moving unpacked backup into place...
+0039.986 () Top-level entities being moved: wc-multivendor-marketplace, mailchimp-for-woocommerce, wc-frontend-manager-elementor, cartflows, recently-viewed-products, ajax-search-for-woocommerce, woo-refund-and-exchange-lite, updraftplus, mobile-login-woocommerce, woovina-extra, nextend-facebook-connect, mobile-login-woocommerce.zip, wc-cancel-order, nav-menu-roles, wc-multivendor-membership, woocommerce, kadence-woocommerce-email-designer, user-registration, custom-order-statuses-woocommerce, social-login-woocommerce, wpforms-lite, woo-cart-abandonment-recovery, elementor, index.php, woowbot-woocommerce-chatbot, yith-woocommerce-compare, akismet, sms-alert, wc-frontend-manager, aftership-woocommerce-tracking, woovina-elementor-widgets, woocommerce-services, mojo-marketplace-wp-plugin, jetpack, woocommerce-gateway-stripe, woo-gst, easy-login-woocommerce-premium, woovina-custom-sidebar, hello.php, google-language-translator, ti-woocommerce-wishlist, wpnotif
+0040.006 () Cleaning up rubbish...
+0040.018 () Entity: themes
+0040.018 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-themes.zip, type=themes, info=a:2:{s:4:"path";s:44:"/home/inditclx/public_html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0040.018 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-themes.zip, 16.2 MB)
+0040.019 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-themes.zip to /home/inditclx/public_html/wp-content/upgrade/c22256f8/ using UpdraftPlus_ZipArchive, starting index 0
+0040.962 () Unzip progress: 1002 out of 1931 files (23.3 MB, themes/woovina/assets/img/niche-26/icon-5.jpg)
+0041.391 () Unzip progress: 1931 out of 1931 files (48.3 MB, themes/sinatra/inc/customizer/controls/widget/widget.css)
+0041.399 () Moving old data: filesystem method / updraft_dir is potentially possible
+0041.399 () Moving old data: can potentially use wp_filesystem method / -old
+0041.399 () Moving old data out of the way...
+0042.027 () Top-level entities being moved: twentyseventeen, flatshop, twentytwenty, storefront, index.php, twentynineteen, woovina, sinatra
+0042.029 () Moving unpacked backup into place...
+0042.161 () Top-level entities being moved: twentyseventeen, flatshop, twentytwenty, storefront, index.php, twentynineteen, woovina, sinatra
+0042.163 () Cleaning up rubbish...
+0042.173 () Entity: uploads
+0042.173 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:45:"/home/inditclx/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0042.173 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-uploads.zip, 39.8 MB)
+0042.173 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-uploads.zip to /home/inditclx/public_html/wp-content/upgrade/a99ac4bd/ using UpdraftPlus_ZipArchive, starting index 0
+0043.087 () Unzip progress: 1002 out of 3141 files (20.7 MB, uploads/2020/06/81I81QyZihL._SY550_-200x300.jpg)
+0043.407 () Unzip progress: 2003 out of 3141 files (32.4 MB, uploads/xootix-sms-sdks/twilio/src/Twilio/Rest/Api/V2010/Account/Usage/RecordList.php)
+0044.129 () Unzip progress: 3004 out of 3141 files (42.3 MB, uploads/2018/11/about-02-300x226.jpg)
+0044.173 () Unzip progress: 3141 out of 3141 files (44.8 MB, uploads/xootix-sms-sdks/twilio/src/Twilio/TwiML/Voice/Echo.php)
+0044.189 () Moving old data: filesystem method / updraft_dir is potentially possible
+0044.189 () Moving old data: can potentially use wp_filesystem method / -old
+0044.189 () Moving old data out of the way...
+0044.425 () Moving unpacked backup into place...
+0045.121 () Cleaning up rubbish...
+0045.132 () Entity: others
+0045.132 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, type=others, info=a:2:{s:4:"path";s:37:"/home/inditclx/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0045.132 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, 5.1 MB)
+0045.132 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_ZipArchive, starting index 0
+0045.940 () Unzip progress: 142 out of 142 files (22.3 MB, index.php-old)
+0045.951 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/home/inditclx/public_html/wp-content/languages)
+0045.955 () Restore failed...
+0045.955 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/home/inditclx/public_html/wp-content/languages)
+0045.955 () Restore failed
+0000.007 () Opened log file at time: Thu, 09 Jul 2020 21:37:44 +0000 on https://inditribes.co.in
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 102M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0001.021 () Free space on disk containing Updraft's temporary directory: 2499209.7 MB
+0000.007 () Opened log file at time: Thu, 09 Jul 2020 21:39:55 +0000 on https://inditribes.co.in
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.7M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0004.011 () Free space on disk containing Updraft's temporary directory: 2499222.7 MB
+0005.013 () Ensuring WP_Filesystem is setup for a restore
+0005.015 () WP_Filesystem is setup and ready for a restore
+0006.011 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpmb_options","wpmb_users","wpmb_usermeta","wpmb_actionscheduler_actions","wpmb_actionscheduler_claims","wpmb_actionscheduler_groups","wpmb_actionscheduler_logs","wpmb_commentmeta","wpmb_comments","wpmb_links","wpmb_postmeta","wpmb_posts","wpmb_term_relationships","wpmb_term_taxonomy","wpmb_termmeta","wpmb_terms","wpmb_wc_category_lookup","wpmb_wc_product_meta_lookup","wpmb_wc_tax_rate_classes","wpmb_woocommerce_order_itemmeta","wpmb_woocommerce_payment_tokenmeta","wpmb_COD_settings","wpmb_cartflows_ca_cart_abandonment","wpmb_cartflows_ca_email_history","wpmb_cartflows_ca_email_templates","wpmb_cartflows_ca_email_templates_meta","wpmb_dokan_announcement","wpmb_dokan_orders","wpmb_dokan_refund","wpmb_dokan_vendor_balance","wpmb_dokan_withdraw","wpmb_mailchimp_carts","wpmb_mailchimp_jobs","wpmb_social_users","wpmb_tinvwl_analytics","wpmb_tinvwl_items","wpmb_tinvwl_lists","wpmb_tm_taskmeta","wpmb_tm_tasks","wpmb_user_registration_sessions","wpmb_wc_admin_note_actions","wpmb_wc_admin_notes","wpmb_wc_cancel_orders","wpmb_wc_customer_lookup","wpmb_wc_download_log","wpmb_wc_order_coupon_lookup","wpmb_wc_order_product_lookup","wpmb_wc_order_stats","wpmb_wc_order_tax_lookup","wpmb_wc_webhooks","wpmb_wcfm_daily_analysis","wpmb_wcfm_detailed_analysis","wpmb_wcfm_enquiries","wpmb_wcfm_enquiries_meta","wpmb_wcfm_enquiries_response","wpmb_wcfm_enquiries_response_meta","wpmb_wcfm_fbc_chat_rows","wpmb_wcfm_fbc_chat_sessions","wpmb_wcfm_fbc_chat_visitors","wpmb_wcfm_fbc_offline_messages","wpmb_wcfm_following_followers","wpmb_wcfm_marketplace_orders","wpmb_wcfm_marketplace_orders_meta","wpmb_wcfm_marketplace_product_multivendor","wpmb_wcfm_marketplace_refund_request","wpmb_wcfm_marketplace_refund_request_meta","wpmb_wcfm_marketplace_reverse_withdrawal","wpmb_wcfm_marketplace_reverse_withdrawal_meta","wpmb_wcfm_marketplace_review_rating_meta","wpmb_wcfm_marketplace_reviews","wpmb_wcfm_marketplace_reviews_response","wpmb_wcfm_marketplace_reviews_response_meta","wpmb_wcfm_marketplace_shipping_zone_locations","wpmb_wcfm_marketplace_shipping_zone_methods","wpmb_wcfm_marketplace_store_taxonomies","wpmb_wcfm_marketplace_vendor_ledger","wpmb_wcfm_marketplace_withdraw_request","wpmb_wcfm_marketplace_withdraw_request_meta","wpmb_wcfm_membership_subscription","wpmb_wcfm_messages","wpmb_wcfm_messages_modifier","wpmb_wcfm_messages_stat","wpmb_wcfm_support","wpmb_wcfm_support_meta","wpmb_wcfm_support_response","wpmb_wcfm_support_response_meta","wpmb_wcpdf_invoice_number","wpmb_woocommerce_api_keys","wpmb_woocommerce_attribute_taxonomies","wpmb_woocommerce_downloadable_product_permissions","wpmb_woocommerce_log","wpmb_woocommerce_order_items","wpmb_woocommerce_payment_tokens","wpmb_woocommerce_sessions","wpmb_woocommerce_shipping_zone_locations","wpmb_woocommerce_shipping_zone_methods","wpmb_woocommerce_shipping_zones","wpmb_woocommerce_tax_rate_locations","wpmb_woocommerce_tax_rates","wpmb_wpforms_tasks_meta","wpmb_wpnotif_mobile_otp","wpmb_wpnotif_newsletter","wpmb_wpnotif_newsletter_history","wpmb_wpnotif_newsletter_send_history","wpmb_wpnotif_sms_app","wpmb_wpnotif_subgroups","wpmb_wpnotif_subgroups_subscribers","wpmb_wpnotif_subscribers","wpmb_wpnotif_whatsapp_messages","wpmb_wpuf_subscribers","wpmb_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0006.012 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-db.gz
+0016.998 () Google Drive: Requesting byte range: 0 - 998300 (0 - 100 %)
+0021.993 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-plugins.zip
+0024.997 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 2.3 %)
+0059.012 () Google Drive: Requesting byte range: 2097153 - 4194305 (2.3 - 4.6 %)
+0092.055 () Google Drive: Requesting byte range: 4194306 - 6291458 (4.6 - 6.8 %)
+0124.059 () Google Drive: Requesting byte range: 6291459 - 8388611 (6.8 - 9.1 %)
+0156.055 () Google Drive: Requesting byte range: 8388612 - 10485764 (9.1 - 11.4 %)
+0159.052 () Google Drive: Requesting byte range: 10485765 - 12582917 (11.4 - 13.7 %)
+0000.006 () Opened log file at time: Thu, 09 Jul 2020 21:42:40 +0000 on https://inditribes.co.in
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.7M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0001.012 () Free space on disk containing Updraft's temporary directory: 2499204.5 MB
+0001.040 () Ensuring WP_Filesystem is setup for a restore
+0001.042 () WP_Filesystem is setup and ready for a restore
+0001.061 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpmb_options","wpmb_users","wpmb_usermeta","wpmb_actionscheduler_actions","wpmb_actionscheduler_claims","wpmb_actionscheduler_groups","wpmb_actionscheduler_logs","wpmb_commentmeta","wpmb_comments","wpmb_links","wpmb_postmeta","wpmb_posts","wpmb_term_relationships","wpmb_term_taxonomy","wpmb_termmeta","wpmb_terms","wpmb_wc_category_lookup","wpmb_wc_product_meta_lookup","wpmb_wc_tax_rate_classes","wpmb_woocommerce_order_itemmeta","wpmb_woocommerce_payment_tokenmeta","wpmb_COD_settings","wpmb_cartflows_ca_cart_abandonment","wpmb_cartflows_ca_email_history","wpmb_cartflows_ca_email_templates","wpmb_cartflows_ca_email_templates_meta","wpmb_dokan_announcement","wpmb_dokan_orders","wpmb_dokan_refund","wpmb_dokan_vendor_balance","wpmb_dokan_withdraw","wpmb_mailchimp_carts","wpmb_mailchimp_jobs","wpmb_social_users","wpmb_tinvwl_analytics","wpmb_tinvwl_items","wpmb_tinvwl_lists","wpmb_tm_taskmeta","wpmb_tm_tasks","wpmb_user_registration_sessions","wpmb_wc_admin_note_actions","wpmb_wc_admin_notes","wpmb_wc_cancel_orders","wpmb_wc_customer_lookup","wpmb_wc_download_log","wpmb_wc_order_coupon_lookup","wpmb_wc_order_product_lookup","wpmb_wc_order_stats","wpmb_wc_order_tax_lookup","wpmb_wc_webhooks","wpmb_wcfm_daily_analysis","wpmb_wcfm_detailed_analysis","wpmb_wcfm_enquiries","wpmb_wcfm_enquiries_meta","wpmb_wcfm_enquiries_response","wpmb_wcfm_enquiries_response_meta","wpmb_wcfm_fbc_chat_rows","wpmb_wcfm_fbc_chat_sessions","wpmb_wcfm_fbc_chat_visitors","wpmb_wcfm_fbc_offline_messages","wpmb_wcfm_following_followers","wpmb_wcfm_marketplace_orders","wpmb_wcfm_marketplace_orders_meta","wpmb_wcfm_marketplace_product_multivendor","wpmb_wcfm_marketplace_refund_request","wpmb_wcfm_marketplace_refund_request_meta","wpmb_wcfm_marketplace_reverse_withdrawal","wpmb_wcfm_marketplace_reverse_withdrawal_meta","wpmb_wcfm_marketplace_review_rating_meta","wpmb_wcfm_marketplace_reviews","wpmb_wcfm_marketplace_reviews_response","wpmb_wcfm_marketplace_reviews_response_meta","wpmb_wcfm_marketplace_shipping_zone_locations","wpmb_wcfm_marketplace_shipping_zone_methods","wpmb_wcfm_marketplace_store_taxonomies","wpmb_wcfm_marketplace_vendor_ledger","wpmb_wcfm_marketplace_withdraw_request","wpmb_wcfm_marketplace_withdraw_request_meta","wpmb_wcfm_membership_subscription","wpmb_wcfm_messages","wpmb_wcfm_messages_modifier","wpmb_wcfm_messages_stat","wpmb_wcfm_support","wpmb_wcfm_support_meta","wpmb_wcfm_support_response","wpmb_wcfm_support_response_meta","wpmb_wcpdf_invoice_number","wpmb_woocommerce_api_keys","wpmb_woocommerce_attribute_taxonomies","wpmb_woocommerce_downloadable_product_permissions","wpmb_woocommerce_log","wpmb_woocommerce_order_items","wpmb_woocommerce_payment_tokens","wpmb_woocommerce_sessions","wpmb_woocommerce_shipping_zone_locations","wpmb_woocommerce_shipping_zone_methods","wpmb_woocommerce_shipping_zones","wpmb_woocommerce_tax_rate_locations","wpmb_woocommerce_tax_rates","wpmb_wpforms_tasks_meta","wpmb_wpnotif_mobile_otp","wpmb_wpnotif_newsletter","wpmb_wpnotif_newsletter_history","wpmb_wpnotif_newsletter_send_history","wpmb_wpnotif_sms_app","wpmb_wpnotif_subgroups","wpmb_wpnotif_subgroups_subscribers","wpmb_wpnotif_subscribers","wpmb_wpnotif_whatsapp_messages","wpmb_wpuf_subscribers","wpmb_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0001.069 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-themes.zip
+0004.966 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 12.3 %)
+0000.007 () Opened log file at time: Thu, 09 Jul 2020 21:42:53 +0000 on https://inditribes.co.in
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.5M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.849 () Free space on disk containing Updraft's temporary directory: 2499203.9 MB
+0000.871 () Ensuring WP_Filesystem is setup for a restore
+0000.872 () WP_Filesystem is setup and ready for a restore
+0000.891 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpmb_options","wpmb_users","wpmb_usermeta","wpmb_actionscheduler_actions","wpmb_actionscheduler_claims","wpmb_actionscheduler_groups","wpmb_actionscheduler_logs","wpmb_commentmeta","wpmb_comments","wpmb_links","wpmb_postmeta","wpmb_posts","wpmb_term_relationships","wpmb_term_taxonomy","wpmb_termmeta","wpmb_terms","wpmb_wc_category_lookup","wpmb_wc_product_meta_lookup","wpmb_wc_tax_rate_classes","wpmb_woocommerce_order_itemmeta","wpmb_woocommerce_payment_tokenmeta","wpmb_COD_settings","wpmb_cartflows_ca_cart_abandonment","wpmb_cartflows_ca_email_history","wpmb_cartflows_ca_email_templates","wpmb_cartflows_ca_email_templates_meta","wpmb_dokan_announcement","wpmb_dokan_orders","wpmb_dokan_refund","wpmb_dokan_vendor_balance","wpmb_dokan_withdraw","wpmb_mailchimp_carts","wpmb_mailchimp_jobs","wpmb_social_users","wpmb_tinvwl_analytics","wpmb_tinvwl_items","wpmb_tinvwl_lists","wpmb_tm_taskmeta","wpmb_tm_tasks","wpmb_user_registration_sessions","wpmb_wc_admin_note_actions","wpmb_wc_admin_notes","wpmb_wc_cancel_orders","wpmb_wc_customer_lookup","wpmb_wc_download_log","wpmb_wc_order_coupon_lookup","wpmb_wc_order_product_lookup","wpmb_wc_order_stats","wpmb_wc_order_tax_lookup","wpmb_wc_webhooks","wpmb_wcfm_daily_analysis","wpmb_wcfm_detailed_analysis","wpmb_wcfm_enquiries","wpmb_wcfm_enquiries_meta","wpmb_wcfm_enquiries_response","wpmb_wcfm_enquiries_response_meta","wpmb_wcfm_fbc_chat_rows","wpmb_wcfm_fbc_chat_sessions","wpmb_wcfm_fbc_chat_visitors","wpmb_wcfm_fbc_offline_messages","wpmb_wcfm_following_followers","wpmb_wcfm_marketplace_orders","wpmb_wcfm_marketplace_orders_meta","wpmb_wcfm_marketplace_product_multivendor","wpmb_wcfm_marketplace_refund_request","wpmb_wcfm_marketplace_refund_request_meta","wpmb_wcfm_marketplace_reverse_withdrawal","wpmb_wcfm_marketplace_reverse_withdrawal_meta","wpmb_wcfm_marketplace_review_rating_meta","wpmb_wcfm_marketplace_reviews","wpmb_wcfm_marketplace_reviews_response","wpmb_wcfm_marketplace_reviews_response_meta","wpmb_wcfm_marketplace_shipping_zone_locations","wpmb_wcfm_marketplace_shipping_zone_methods","wpmb_wcfm_marketplace_store_taxonomies","wpmb_wcfm_marketplace_vendor_ledger","wpmb_wcfm_marketplace_withdraw_request","wpmb_wcfm_marketplace_withdraw_request_meta","wpmb_wcfm_membership_subscription","wpmb_wcfm_messages","wpmb_wcfm_messages_modifier","wpmb_wcfm_messages_stat","wpmb_wcfm_support","wpmb_wcfm_support_meta","wpmb_wcfm_support_response","wpmb_wcfm_support_response_meta","wpmb_wcpdf_invoice_number","wpmb_woocommerce_api_keys","wpmb_woocommerce_attribute_taxonomies","wpmb_woocommerce_downloadable_product_permissions","wpmb_woocommerce_log","wpmb_woocommerce_order_items","wpmb_woocommerce_payment_tokens","wpmb_woocommerce_sessions","wpmb_woocommerce_shipping_zone_locations","wpmb_woocommerce_shipping_zone_methods","wpmb_woocommerce_shipping_zones","wpmb_woocommerce_tax_rate_locations","wpmb_woocommerce_tax_rates","wpmb_wpforms_tasks_meta","wpmb_wpnotif_mobile_otp","wpmb_wpnotif_newsletter","wpmb_wpnotif_newsletter_history","wpmb_wpnotif_newsletter_send_history","wpmb_wpnotif_sms_app","wpmb_wpnotif_subgroups","wpmb_wpnotif_subgroups_subscribers","wpmb_wpnotif_subscribers","wpmb_wpnotif_whatsapp_messages","wpmb_wpuf_subscribers","wpmb_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.899 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-themes.zip
+0002.576 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 12.3 %)
+0017.566 () Google Drive: Requesting byte range: 2097153 - 4194305 (12.3 - 24.7 %)
+0023.974 () Google Drive: Requesting byte range: 4194306 - 6291458 (24.7 - 37 %)
+0191.060 () Google Drive: Requesting byte range: 12582918 - 14680070 (13.7 - 16 %)
+0193.618 () Google Drive: Requesting byte range: 14680071 - 16777223 (16 - 18.2 %)
+0029.214 () Google Drive: Requesting byte range: 6291459 - 8388611 (37 - 49.4 %)
+0196.395 () Google Drive: Requesting byte range: 16777224 - 18874376 (18.2 - 20.5 %)
+0198.463 () Google Drive: Requesting byte range: 18874377 - 20971529 (20.5 - 22.8 %)
+0035.063 () Google Drive: Requesting byte range: 8388612 - 10485764 (49.4 - 61.7 %)
+0200.493 () Google Drive: Requesting byte range: 20971530 - 23068682 (22.8 - 25.1 %)
+0203.816 () Google Drive: Requesting byte range: 23068683 - 25165835 (25.1 - 27.3 %)
+0028.213 () Google Drive: Requesting byte range: 2097153 - 4194305 (12.3 - 24.7 %)
+0049.041 () Google Drive: download: exception: Failed to obtain any new data at size: 8388612 (line: 1312, file: /home/inditclx/public_html/wp-content/plugins/updraftplus/methods/googledrive.php)
+0049.050 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-uploads.zip
+0050.964 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 5 %)
+0041.924 () Google Drive: Requesting byte range: 6291459 - 8388611 (37 - 49.4 %)
+0049.877 () Google Drive: Requesting byte range: 8388612 - 10485764 (49.4 - 61.7 %)
+0065.028 () Google Drive: Requesting byte range: 2097153 - 4194305 (5 - 10.1 %)
+0235.049 () Google Drive: Requesting byte range: 25165836 - 27262988 (27.3 - 29.6 %)
+0060.877 () Google Drive: Requesting byte range: 10485765 - 12582917 (61.7 - 74.1 %)
+0081.029 () Google Drive: Requesting byte range: 4194306 - 6291458 (10.1 - 15.1 %)
+0074.873 () Google Drive: Requesting byte range: 12582918 - 14680070 (74.1 - 86.4 %)
+0082.863 () Google Drive: Requesting byte range: 14680071 - 16777223 (86.4 - 98.7 %)
+0098.030 () Google Drive: Requesting byte range: 6291459 - 8388611 (15.1 - 20.1 %)
+0267.034 () Google Drive: Requesting byte range: 27262989 - 29360141 (29.6 - 31.9 %)
+0089.034 () Google Drive: Requesting byte range: 16777224 - 16991885 (98.7 - 100 %)
+0096.828 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip
+0098.817 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 39.1 %)
+0114.141 () Google Drive: Requesting byte range: 8388612 - 10485764 (20.1 - 25.1 %)
+0103.871 () Google Drive: Requesting byte range: 2097153 - 4194305 (39.1 - 78.2 %)
+0105.866 () Google Drive: Requesting byte range: 4194306 - 5366110 (78.2 - 100 %)
+0107.844 () Entity: others
+0107.844 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, type=others, info=a:2:{s:4:"path";s:37:"/home/inditclx/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0107.844 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, 5.1 MB)
+0107.845 () Unpack resumption may be possible: zip_starting_index=0, last_exists=, last_size=n/a, last_status=a:3:{s:5:"index";i:141;s:4:"info";a:7:{s:4:"name";s:13:"index.php-old";s:5:"index";i:141;s:3:"crc";i:4212199498;s:4:"size";i:28;s:5:"mtime";i:1594152548;s:9:"comp_size";i:28;s:11:"comp_method";i:0;}s:12:"size_written";i:23413316;}
+0107.867 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_ZipArchive, starting index 0
+0109.929 () Unzip progress: 142 out of 142 files (22.3 MB, index.php-old)
+0110.817 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/home/inditclx/public_html/wp-content/languages)
+0110.823 () Restore failed...
+0110.823 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/home/inditclx/public_html/wp-content/languages)
+0110.823 () Restore failed
+0128.025 () Google Drive: Requesting byte range: 10485765 - 12582917 (25.1 - 30.2 %)
+0298.061 () Google Drive: Requesting byte range: 29360142 - 31457294 (31.9 - 34.2 %)
+0302.055 () Google Drive: Requesting byte range: 31457295 - 33554447 (34.2 - 36.5 %)
+0306.020 () Google Drive: Requesting byte range: 33554448 - 35651600 (36.5 - 38.7 %)
+0144.959 () Google Drive: Requesting byte range: 12582918 - 14680070 (30.2 - 35.2 %)
+0311.006 () Google Drive: Requesting byte range: 35651601 - 37748753 (38.7 - 41 %)
+0317.035 () Google Drive: Requesting byte range: 37748754 - 39845906 (41 - 43.3 %)
+0158.990 () Google Drive: Requesting byte range: 14680071 - 16777223 (35.2 - 40.2 %)
+0176.992 () Google Drive: Requesting byte range: 16777224 - 18874376 (40.2 - 45.3 %)
+0351.019 () Google Drive: Requesting byte range: 39845907 - 41943059 (43.3 - 45.6 %)
+0356.022 () Google Drive: Requesting byte range: 41943060 - 44040212 (45.6 - 47.9 %)
+0194.982 () Google Drive: Requesting byte range: 18874377 - 20971529 (45.3 - 50.3 %)
+0208.971 () Google Drive: Requesting byte range: 20971530 - 23068682 (50.3 - 55.3 %)
+0390.010 () Google Drive: Requesting byte range: 44040213 - 46137365 (47.9 - 50.1 %)
+0225.984 () Google Drive: Requesting byte range: 23068683 - 25165835 (55.3 - 60.4 %)
+0237.963 () Google Drive: Requesting byte range: 25165836 - 27262988 (60.4 - 65.4 %)
+0253.015 () Google Drive: Requesting byte range: 27262989 - 29360141 (65.4 - 70.4 %)
+0423.991 () Google Drive: Requesting byte range: 46137366 - 48234518 (50.1 - 52.4 %)
+0265.970 () Google Drive: Requesting byte range: 29360142 - 31457294 (70.4 - 75.4 %)
+0279.956 () Google Drive: Requesting byte range: 31457295 - 33554447 (75.4 - 80.5 %)
+0456.992 () Google Drive: Requesting byte range: 48234519 - 50331671 (52.4 - 54.7 %)
+0293.966 () Google Drive: Requesting byte range: 33554448 - 35651600 (80.5 - 85.5 %)
+0462.997 () Google Drive: Requesting byte range: 50331672 - 52428824 (54.7 - 57 %)
+0306.028 () Google Drive: Requesting byte range: 35651601 - 37748753 (85.5 - 90.5 %)
+0322.968 () Google Drive: Requesting byte range: 37748754 - 39845906 (90.5 - 95.6 %)
+0495.015 () Google Drive: Requesting byte range: 52428825 - 54525977 (57 - 59.2 %)
+0500.998 () Google Drive: Requesting byte range: 54525978 - 56623130 (59.2 - 61.5 %)
+0336.981 () Google Drive: Requesting byte range: 39845907 - 41693477 (95.6 - 100 %)
+0507.011 () Google Drive: Requesting byte range: 56623131 - 58720283 (61.5 - 63.8 %)
+0350.957 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip
+0516.020 () Google Drive: Requesting byte range: 58720284 - 60817436 (63.8 - 66.1 %)
+0353.965 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 39.1 %)
+0358.972 () Google Drive: Requesting byte range: 2097153 - 4194305 (39.1 - 78.2 %)
+0362.982 () Google Drive: Requesting byte range: 4194306 - 5366110 (78.2 - 100 %)
+0366.966 () Entity: others
+0366.966 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, type=others, info=a:2:{s:4:"path";s:37:"/home/inditclx/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0366.967 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, 5.1 MB)
+0366.967 () Unpack resumption may be possible: zip_starting_index=0, last_exists=, last_size=n/a, last_status=a:3:{s:5:"index";i:141;s:4:"info";a:7:{s:4:"name";s:13:"index.php-old";s:5:"index";i:141;s:3:"crc";i:4212199498;s:4:"size";i:28;s:5:"mtime";i:1594152548;s:9:"comp_size";i:28;s:11:"comp_method";i:0;}s:12:"size_written";i:23413316;}
+0366.988 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_ZipArchive, starting index 0
+0376.011 () Unzip progress: 142 out of 142 files (22.3 MB, index.php-old)
+0376.966 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/home/inditclx/public_html/wp-content/wpo-cache)
+0376.971 () Restore failed...
+0376.971 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/home/inditclx/public_html/wp-content/wpo-cache)
+0376.971 () Restore failed
+0551.006 () Google Drive: Requesting byte range: 60817437 - 62914589 (66.1 - 68.4 %)
+0557.008 () Google Drive: Requesting byte range: 62914590 - 65011742 (68.4 - 70.6 %)
+0562.041 () Google Drive: Requesting byte range: 65011743 - 67108895 (70.6 - 72.9 %)
+0595.063 () Google Drive: Requesting byte range: 67108896 - 69206048 (72.9 - 75.2 %)
+0628.050 () Google Drive: download: exception: Failed to obtain any new data at size: 67108896 (line: 1312, file: /home/inditclx/public_html/wp-content/plugins/updraftplus/methods/googledrive.php)
+0000.007 () Opened log file at time: Thu, 09 Jul 2020 22:05:40 +0000 on https://inditribes.co.in
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 102M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.852 () Free space on disk containing Updraft's temporary directory: 2499222.9 MB
+0000.008 () Opened log file at time: Thu, 09 Jul 2020 22:06:10 +0000 on https://inditribes.co.in
+0000.010 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.5M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0001.030 () Free space on disk containing Updraft's temporary directory: 2499220.9 MB
+0001.939 () Ensuring WP_Filesystem is setup for a restore
+0001.940 () WP_Filesystem is setup and ready for a restore
+0001.967 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpmb_options","wpmb_users","wpmb_usermeta","wpmb_actionscheduler_actions","wpmb_actionscheduler_claims","wpmb_actionscheduler_groups","wpmb_actionscheduler_logs","wpmb_commentmeta","wpmb_comments","wpmb_links","wpmb_postmeta","wpmb_posts","wpmb_term_relationships","wpmb_term_taxonomy","wpmb_termmeta","wpmb_terms","wpmb_wc_category_lookup","wpmb_wc_product_meta_lookup","wpmb_wc_tax_rate_classes","wpmb_woocommerce_order_itemmeta","wpmb_woocommerce_payment_tokenmeta","wpmb_COD_settings","wpmb_cartflows_ca_cart_abandonment","wpmb_cartflows_ca_email_history","wpmb_cartflows_ca_email_templates","wpmb_cartflows_ca_email_templates_meta","wpmb_dokan_announcement","wpmb_dokan_orders","wpmb_dokan_refund","wpmb_dokan_vendor_balance","wpmb_dokan_withdraw","wpmb_mailchimp_carts","wpmb_mailchimp_jobs","wpmb_social_users","wpmb_tinvwl_analytics","wpmb_tinvwl_items","wpmb_tinvwl_lists","wpmb_tm_taskmeta","wpmb_tm_tasks","wpmb_user_registration_sessions","wpmb_wc_admin_note_actions","wpmb_wc_admin_notes","wpmb_wc_cancel_orders","wpmb_wc_customer_lookup","wpmb_wc_download_log","wpmb_wc_order_coupon_lookup","wpmb_wc_order_product_lookup","wpmb_wc_order_stats","wpmb_wc_order_tax_lookup","wpmb_wc_webhooks","wpmb_wcfm_daily_analysis","wpmb_wcfm_detailed_analysis","wpmb_wcfm_enquiries","wpmb_wcfm_enquiries_meta","wpmb_wcfm_enquiries_response","wpmb_wcfm_enquiries_response_meta","wpmb_wcfm_fbc_chat_rows","wpmb_wcfm_fbc_chat_sessions","wpmb_wcfm_fbc_chat_visitors","wpmb_wcfm_fbc_offline_messages","wpmb_wcfm_following_followers","wpmb_wcfm_marketplace_orders","wpmb_wcfm_marketplace_orders_meta","wpmb_wcfm_marketplace_product_multivendor","wpmb_wcfm_marketplace_refund_request","wpmb_wcfm_marketplace_refund_request_meta","wpmb_wcfm_marketplace_reverse_withdrawal","wpmb_wcfm_marketplace_reverse_withdrawal_meta","wpmb_wcfm_marketplace_review_rating_meta","wpmb_wcfm_marketplace_reviews","wpmb_wcfm_marketplace_reviews_response","wpmb_wcfm_marketplace_reviews_response_meta","wpmb_wcfm_marketplace_shipping_zone_locations","wpmb_wcfm_marketplace_shipping_zone_methods","wpmb_wcfm_marketplace_store_taxonomies","wpmb_wcfm_marketplace_vendor_ledger","wpmb_wcfm_marketplace_withdraw_request","wpmb_wcfm_marketplace_withdraw_request_meta","wpmb_wcfm_membership_subscription","wpmb_wcfm_messages","wpmb_wcfm_messages_modifier","wpmb_wcfm_messages_stat","wpmb_wcfm_support","wpmb_wcfm_support_meta","wpmb_wcfm_support_response","wpmb_wcfm_support_response_meta","wpmb_wcpdf_invoice_number","wpmb_woocommerce_api_keys","wpmb_woocommerce_attribute_taxonomies","wpmb_woocommerce_downloadable_product_permissions","wpmb_woocommerce_log","wpmb_woocommerce_order_items","wpmb_woocommerce_payment_tokens","wpmb_woocommerce_sessions","wpmb_woocommerce_shipping_zone_locations","wpmb_woocommerce_shipping_zone_methods","wpmb_woocommerce_shipping_zones","wpmb_woocommerce_tax_rate_locations","wpmb_woocommerce_tax_rates","wpmb_wpforms_tasks_meta","wpmb_wpnotif_mobile_otp","wpmb_wpnotif_newsletter","wpmb_wpnotif_newsletter_history","wpmb_wpnotif_newsletter_send_history","wpmb_wpnotif_sms_app","wpmb_wpnotif_subgroups","wpmb_wpnotif_subgroups_subscribers","wpmb_wpnotif_subscribers","wpmb_wpnotif_whatsapp_messages","wpmb_wpuf_subscribers","wpmb_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0001.968 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-db.gz
+0005.040 () Google Drive: Requesting byte range: 0 - 998300 (0 - 100 %)
+0007.494 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-plugins.zip
+0008.470 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 2.3 %)
+0038.991 () Google Drive: Requesting byte range: 2097153 - 4194305 (2.3 - 4.6 %)
+0069.551 () Google Drive: Requesting byte range: 4194306 - 6291458 (4.6 - 6.8 %)
+0099.995 () Google Drive: Requesting byte range: 6291459 - 8388611 (6.8 - 9.1 %)
+0130.973 () Google Drive: Requesting byte range: 8388612 - 10485764 (9.1 - 11.4 %)
+0133.977 () Google Drive: Requesting byte range: 10485765 - 12582917 (11.4 - 13.7 %)
+0000.878 () Opened log file at time: Thu, 09 Jul 2020 22:08:52 +0000 on https://inditribes.co.in
+0000.880 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.5M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0001.875 () Free space on disk containing Updraft's temporary directory: 2499202.7 MB
+0001.904 () Ensuring WP_Filesystem is setup for a restore
+0001.906 () WP_Filesystem is setup and ready for a restore
+0001.930 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpmb_options","wpmb_users","wpmb_usermeta","wpmb_actionscheduler_actions","wpmb_actionscheduler_claims","wpmb_actionscheduler_groups","wpmb_actionscheduler_logs","wpmb_commentmeta","wpmb_comments","wpmb_links","wpmb_postmeta","wpmb_posts","wpmb_term_relationships","wpmb_term_taxonomy","wpmb_termmeta","wpmb_terms","wpmb_wc_category_lookup","wpmb_wc_product_meta_lookup","wpmb_wc_tax_rate_classes","wpmb_woocommerce_order_itemmeta","wpmb_woocommerce_payment_tokenmeta","wpmb_COD_settings","wpmb_cartflows_ca_cart_abandonment","wpmb_cartflows_ca_email_history","wpmb_cartflows_ca_email_templates","wpmb_cartflows_ca_email_templates_meta","wpmb_dokan_announcement","wpmb_dokan_orders","wpmb_dokan_refund","wpmb_dokan_vendor_balance","wpmb_dokan_withdraw","wpmb_mailchimp_carts","wpmb_mailchimp_jobs","wpmb_social_users","wpmb_tinvwl_analytics","wpmb_tinvwl_items","wpmb_tinvwl_lists","wpmb_tm_taskmeta","wpmb_tm_tasks","wpmb_user_registration_sessions","wpmb_wc_admin_note_actions","wpmb_wc_admin_notes","wpmb_wc_cancel_orders","wpmb_wc_customer_lookup","wpmb_wc_download_log","wpmb_wc_order_coupon_lookup","wpmb_wc_order_product_lookup","wpmb_wc_order_stats","wpmb_wc_order_tax_lookup","wpmb_wc_webhooks","wpmb_wcfm_daily_analysis","wpmb_wcfm_detailed_analysis","wpmb_wcfm_enquiries","wpmb_wcfm_enquiries_meta","wpmb_wcfm_enquiries_response","wpmb_wcfm_enquiries_response_meta","wpmb_wcfm_fbc_chat_rows","wpmb_wcfm_fbc_chat_sessions","wpmb_wcfm_fbc_chat_visitors","wpmb_wcfm_fbc_offline_messages","wpmb_wcfm_following_followers","wpmb_wcfm_marketplace_orders","wpmb_wcfm_marketplace_orders_meta","wpmb_wcfm_marketplace_product_multivendor","wpmb_wcfm_marketplace_refund_request","wpmb_wcfm_marketplace_refund_request_meta","wpmb_wcfm_marketplace_reverse_withdrawal","wpmb_wcfm_marketplace_reverse_withdrawal_meta","wpmb_wcfm_marketplace_review_rating_meta","wpmb_wcfm_marketplace_reviews","wpmb_wcfm_marketplace_reviews_response","wpmb_wcfm_marketplace_reviews_response_meta","wpmb_wcfm_marketplace_shipping_zone_locations","wpmb_wcfm_marketplace_shipping_zone_methods","wpmb_wcfm_marketplace_store_taxonomies","wpmb_wcfm_marketplace_vendor_ledger","wpmb_wcfm_marketplace_withdraw_request","wpmb_wcfm_marketplace_withdraw_request_meta","wpmb_wcfm_membership_subscription","wpmb_wcfm_messages","wpmb_wcfm_messages_modifier","wpmb_wcfm_messages_stat","wpmb_wcfm_support","wpmb_wcfm_support_meta","wpmb_wcfm_support_response","wpmb_wcfm_support_response_meta","wpmb_wcpdf_invoice_number","wpmb_woocommerce_api_keys","wpmb_woocommerce_attribute_taxonomies","wpmb_woocommerce_downloadable_product_permissions","wpmb_woocommerce_log","wpmb_woocommerce_order_items","wpmb_woocommerce_payment_tokens","wpmb_woocommerce_sessions","wpmb_woocommerce_shipping_zone_locations","wpmb_woocommerce_shipping_zone_methods","wpmb_woocommerce_shipping_zones","wpmb_woocommerce_tax_rate_locations","wpmb_woocommerce_tax_rates","wpmb_wpforms_tasks_meta","wpmb_wpnotif_mobile_otp","wpmb_wpnotif_newsletter","wpmb_wpnotif_newsletter_history","wpmb_wpnotif_newsletter_send_history","wpmb_wpnotif_sms_app","wpmb_wpnotif_subgroups","wpmb_wpnotif_subgroups_subscribers","wpmb_wpnotif_subscribers","wpmb_wpnotif_whatsapp_messages","wpmb_wpuf_subscribers","wpmb_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0001.939 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-themes.zip
+0165.986 () Google Drive: Requesting byte range: 12582918 - 14680070 (13.7 - 16 %)
+0005.883 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 12.3 %)
+0168.980 () Google Drive: Requesting byte range: 14680071 - 16777223 (16 - 18.2 %)
+0000.007 () Opened log file at time: Thu, 09 Jul 2020 22:09:04 +0000 on https://inditribes.co.in
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.5M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.942 () Free space on disk containing Updraft's temporary directory: 2499197.6 MB
+0000.962 () Ensuring WP_Filesystem is setup for a restore
+0000.963 () WP_Filesystem is setup and ready for a restore
+0000.985 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpmb_options","wpmb_users","wpmb_usermeta","wpmb_actionscheduler_actions","wpmb_actionscheduler_claims","wpmb_actionscheduler_groups","wpmb_actionscheduler_logs","wpmb_commentmeta","wpmb_comments","wpmb_links","wpmb_postmeta","wpmb_posts","wpmb_term_relationships","wpmb_term_taxonomy","wpmb_termmeta","wpmb_terms","wpmb_wc_category_lookup","wpmb_wc_product_meta_lookup","wpmb_wc_tax_rate_classes","wpmb_woocommerce_order_itemmeta","wpmb_woocommerce_payment_tokenmeta","wpmb_COD_settings","wpmb_cartflows_ca_cart_abandonment","wpmb_cartflows_ca_email_history","wpmb_cartflows_ca_email_templates","wpmb_cartflows_ca_email_templates_meta","wpmb_dokan_announcement","wpmb_dokan_orders","wpmb_dokan_refund","wpmb_dokan_vendor_balance","wpmb_dokan_withdraw","wpmb_mailchimp_carts","wpmb_mailchimp_jobs","wpmb_social_users","wpmb_tinvwl_analytics","wpmb_tinvwl_items","wpmb_tinvwl_lists","wpmb_tm_taskmeta","wpmb_tm_tasks","wpmb_user_registration_sessions","wpmb_wc_admin_note_actions","wpmb_wc_admin_notes","wpmb_wc_cancel_orders","wpmb_wc_customer_lookup","wpmb_wc_download_log","wpmb_wc_order_coupon_lookup","wpmb_wc_order_product_lookup","wpmb_wc_order_stats","wpmb_wc_order_tax_lookup","wpmb_wc_webhooks","wpmb_wcfm_daily_analysis","wpmb_wcfm_detailed_analysis","wpmb_wcfm_enquiries","wpmb_wcfm_enquiries_meta","wpmb_wcfm_enquiries_response","wpmb_wcfm_enquiries_response_meta","wpmb_wcfm_fbc_chat_rows","wpmb_wcfm_fbc_chat_sessions","wpmb_wcfm_fbc_chat_visitors","wpmb_wcfm_fbc_offline_messages","wpmb_wcfm_following_followers","wpmb_wcfm_marketplace_orders","wpmb_wcfm_marketplace_orders_meta","wpmb_wcfm_marketplace_product_multivendor","wpmb_wcfm_marketplace_refund_request","wpmb_wcfm_marketplace_refund_request_meta","wpmb_wcfm_marketplace_reverse_withdrawal","wpmb_wcfm_marketplace_reverse_withdrawal_meta","wpmb_wcfm_marketplace_review_rating_meta","wpmb_wcfm_marketplace_reviews","wpmb_wcfm_marketplace_reviews_response","wpmb_wcfm_marketplace_reviews_response_meta","wpmb_wcfm_marketplace_shipping_zone_locations","wpmb_wcfm_marketplace_shipping_zone_methods","wpmb_wcfm_marketplace_store_taxonomies","wpmb_wcfm_marketplace_vendor_ledger","wpmb_wcfm_marketplace_withdraw_request","wpmb_wcfm_marketplace_withdraw_request_meta","wpmb_wcfm_membership_subscription","wpmb_wcfm_messages","wpmb_wcfm_messages_modifier","wpmb_wcfm_messages_stat","wpmb_wcfm_support","wpmb_wcfm_support_meta","wpmb_wcfm_support_response","wpmb_wcfm_support_response_meta","wpmb_wcpdf_invoice_number","wpmb_woocommerce_api_keys","wpmb_woocommerce_attribute_taxonomies","wpmb_woocommerce_downloadable_product_permissions","wpmb_woocommerce_log","wpmb_woocommerce_order_items","wpmb_woocommerce_payment_tokens","wpmb_woocommerce_sessions","wpmb_woocommerce_shipping_zone_locations","wpmb_woocommerce_shipping_zone_methods","wpmb_woocommerce_shipping_zones","wpmb_woocommerce_tax_rate_locations","wpmb_woocommerce_tax_rates","wpmb_wpforms_tasks_meta","wpmb_wpnotif_mobile_otp","wpmb_wpnotif_newsletter","wpmb_wpnotif_newsletter_history","wpmb_wpnotif_newsletter_send_history","wpmb_wpnotif_sms_app","wpmb_wpnotif_subgroups","wpmb_wpnotif_subgroups_subscribers","wpmb_wpnotif_subscribers","wpmb_wpnotif_whatsapp_messages","wpmb_wpuf_subscribers","wpmb_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.994 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-themes.zip
+0004.878 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 12.3 %)
+0000.007 () Opened log file at time: Thu, 09 Jul 2020 22:09:10 +0000 on https://inditribes.co.in
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.7M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.118 () Free space on disk containing Updraft's temporary directory: 2499197.4 MB
+0000.142 () Ensuring WP_Filesystem is setup for a restore
+0000.143 () WP_Filesystem is setup and ready for a restore
+0000.166 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpmb_options","wpmb_users","wpmb_usermeta","wpmb_actionscheduler_actions","wpmb_actionscheduler_claims","wpmb_actionscheduler_groups","wpmb_actionscheduler_logs","wpmb_commentmeta","wpmb_comments","wpmb_links","wpmb_postmeta","wpmb_posts","wpmb_term_relationships","wpmb_term_taxonomy","wpmb_termmeta","wpmb_terms","wpmb_wc_category_lookup","wpmb_wc_product_meta_lookup","wpmb_wc_tax_rate_classes","wpmb_woocommerce_order_itemmeta","wpmb_woocommerce_payment_tokenmeta","wpmb_COD_settings","wpmb_cartflows_ca_cart_abandonment","wpmb_cartflows_ca_email_history","wpmb_cartflows_ca_email_templates","wpmb_cartflows_ca_email_templates_meta","wpmb_dokan_announcement","wpmb_dokan_orders","wpmb_dokan_refund","wpmb_dokan_vendor_balance","wpmb_dokan_withdraw","wpmb_mailchimp_carts","wpmb_mailchimp_jobs","wpmb_social_users","wpmb_tinvwl_analytics","wpmb_tinvwl_items","wpmb_tinvwl_lists","wpmb_tm_taskmeta","wpmb_tm_tasks","wpmb_user_registration_sessions","wpmb_wc_admin_note_actions","wpmb_wc_admin_notes","wpmb_wc_cancel_orders","wpmb_wc_customer_lookup","wpmb_wc_download_log","wpmb_wc_order_coupon_lookup","wpmb_wc_order_product_lookup","wpmb_wc_order_stats","wpmb_wc_order_tax_lookup","wpmb_wc_webhooks","wpmb_wcfm_daily_analysis","wpmb_wcfm_detailed_analysis","wpmb_wcfm_enquiries","wpmb_wcfm_enquiries_meta","wpmb_wcfm_enquiries_response","wpmb_wcfm_enquiries_response_meta","wpmb_wcfm_fbc_chat_rows","wpmb_wcfm_fbc_chat_sessions","wpmb_wcfm_fbc_chat_visitors","wpmb_wcfm_fbc_offline_messages","wpmb_wcfm_following_followers","wpmb_wcfm_marketplace_orders","wpmb_wcfm_marketplace_orders_meta","wpmb_wcfm_marketplace_product_multivendor","wpmb_wcfm_marketplace_refund_request","wpmb_wcfm_marketplace_refund_request_meta","wpmb_wcfm_marketplace_reverse_withdrawal","wpmb_wcfm_marketplace_reverse_withdrawal_meta","wpmb_wcfm_marketplace_review_rating_meta","wpmb_wcfm_marketplace_reviews","wpmb_wcfm_marketplace_reviews_response","wpmb_wcfm_marketplace_reviews_response_meta","wpmb_wcfm_marketplace_shipping_zone_locations","wpmb_wcfm_marketplace_shipping_zone_methods","wpmb_wcfm_marketplace_store_taxonomies","wpmb_wcfm_marketplace_vendor_ledger","wpmb_wcfm_marketplace_withdraw_request","wpmb_wcfm_marketplace_withdraw_request_meta","wpmb_wcfm_membership_subscription","wpmb_wcfm_messages","wpmb_wcfm_messages_modifier","wpmb_wcfm_messages_stat","wpmb_wcfm_support","wpmb_wcfm_support_meta","wpmb_wcfm_support_response","wpmb_wcfm_support_response_meta","wpmb_wcpdf_invoice_number","wpmb_woocommerce_api_keys","wpmb_woocommerce_attribute_taxonomies","wpmb_woocommerce_downloadable_product_permissions","wpmb_woocommerce_log","wpmb_woocommerce_order_items","wpmb_woocommerce_payment_tokens","wpmb_woocommerce_sessions","wpmb_woocommerce_shipping_zone_locations","wpmb_woocommerce_shipping_zone_methods","wpmb_woocommerce_shipping_zones","wpmb_woocommerce_tax_rate_locations","wpmb_woocommerce_tax_rates","wpmb_wpforms_tasks_meta","wpmb_wpnotif_mobile_otp","wpmb_wpnotif_newsletter","wpmb_wpnotif_newsletter_history","wpmb_wpnotif_newsletter_send_history","wpmb_wpnotif_sms_app","wpmb_wpnotif_subgroups","wpmb_wpnotif_subgroups_subscribers","wpmb_wpnotif_subscribers","wpmb_wpnotif_whatsapp_messages","wpmb_wpuf_subscribers","wpmb_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.175 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-themes.zip
+0002.972 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 12.3 %)
+0024.957 () Google Drive: Requesting byte range: 2097153 - 4194305 (12.3 - 24.7 %)
+0016.866 () Google Drive: Requesting byte range: 2097153 - 4194305 (12.3 - 24.7 %)
+0014.722 () Google Drive: Requesting byte range: 2097153 - 4194305 (12.3 - 24.7 %)
+0033.952 () Google Drive: Requesting byte range: 4194306 - 6291458 (24.7 - 37 %)
+0023.899 () Google Drive: Requesting byte range: 6291459 - 8388611 (37 - 49.4 %)
+0038.793 () Google Drive: Requesting byte range: 8388612 - 10485764 (49.4 - 61.7 %)
+0200.348 () Google Drive: Requesting byte range: 16777224 - 18874376 (18.2 - 20.5 %)
+0035.270 () Google Drive: Requesting byte range: 10485765 - 12582917 (61.7 - 74.1 %)
+0032.420 () Google Drive: Requesting byte range: 12582918 - 14680070 (74.1 - 86.4 %)
+0040.561 () Google Drive: Requesting byte range: 14680071 - 16777223 (86.4 - 98.7 %)
+0037.404 () Google Drive: Requesting byte range: 16777224 - 16991885 (98.7 - 100 %)
+0057.173 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-uploads.zip
+0057.718 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 5 %)
+0046.163 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-uploads.zip
+0046.713 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 5 %)
+0044.958 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-uploads.zip
+0045.951 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 5 %)
+0230.859 () Google Drive: Requesting byte range: 18874377 - 20971529 (20.5 - 22.8 %)
+0071.265 () Google Drive: Requesting byte range: 2097153 - 4194305 (5 - 10.1 %)
+0060.612 () Google Drive: Requesting byte range: 2097153 - 4194305 (5 - 10.1 %)
+0063.323 () Google Drive: Requesting byte range: 2097153 - 4194305 (5 - 10.1 %)
+0083.820 () Google Drive: Requesting byte range: 4194306 - 6291458 (10.1 - 15.1 %)
+0074.377 () Google Drive: Requesting byte range: 6291459 - 8388611 (15.1 - 20.1 %)
+0074.432 () Google Drive: Requesting byte range: 8388612 - 10485764 (20.1 - 25.1 %)
+0097.016 () Google Drive: Requesting byte range: 10485765 - 12582917 (25.1 - 30.2 %)
+0086.856 () Google Drive: Requesting byte range: 12582918 - 14680070 (30.2 - 35.2 %)
+0261.538 () Google Drive: Requesting byte range: 20971530 - 23068682 (22.8 - 25.1 %)
+0106.560 () Google Drive: Requesting byte range: 14680071 - 16777223 (35.2 - 40.2 %)
+0090.111 () Google Drive: Requesting byte range: 16777224 - 18874376 (40.2 - 45.3 %)
+0099.949 () Google Drive: Requesting byte range: 18874377 - 20971529 (45.3 - 50.3 %)
+0117.266 () Google Drive: Requesting byte range: 20971530 - 23068682 (50.3 - 55.3 %)
+0101.575 () Google Drive: Requesting byte range: 23068683 - 25165835 (55.3 - 60.4 %)
+0109.886 () Google Drive: Requesting byte range: 25165836 - 27262988 (60.4 - 65.4 %)
+0130.062 () Google Drive: Requesting byte range: 27262989 - 29360141 (65.4 - 70.4 %)
+0292.059 () Google Drive: Requesting byte range: 23068683 - 25165835 (25.1 - 27.3 %)
+0113.371 () Google Drive: Requesting byte range: 29360142 - 31457294 (70.4 - 75.4 %)
+0295.001 () Google Drive: Requesting byte range: 25165836 - 27262988 (27.3 - 29.6 %)
+0296.946 () Google Drive: Requesting byte range: 27262989 - 29360141 (29.6 - 31.9 %)
+0123.217 () Google Drive: Requesting byte range: 31457295 - 33554447 (75.4 - 80.5 %)
+0143.954 () Google Drive: Requesting byte range: 33554448 - 35651600 (80.5 - 85.5 %)
+0128.014 () Google Drive: Requesting byte range: 35651601 - 37748753 (85.5 - 90.5 %)
+0137.878 () Google Drive: Requesting byte range: 37748754 - 39845906 (90.5 - 95.6 %)
+0157.878 () Google Drive: Requesting byte range: 39845907 - 41693477 (95.6 - 100 %)
+0142.977 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip
+0145.951 () Google Drive: Requesting byte range: 0 - 2097152 (0 - 39.1 %)
+0328.928 () Google Drive: Requesting byte range: 29360142 - 31457294 (31.9 - 34.2 %)
+0172.874 () Requested file from remote service: googledrive: backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip
+0155.965 () Google Drive: Requesting byte range: 2097153 - 4194305 (39.1 - 78.2 %)
+0161.904 () Entity: others
+0161.904 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, type=others, info=a:2:{s:4:"path";s:37:"/home/inditclx/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0161.905 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, 2 MB)
+0161.905 () Unpack resumption may be possible: zip_starting_index=0, last_exists=, last_size=n/a, last_status=a:3:{s:5:"index";i:141;s:4:"info";a:7:{s:4:"name";s:13:"index.php-old";s:5:"index";i:141;s:3:"crc";i:4212199498;s:4:"size";i:28;s:5:"mtime";i:1594152548;s:9:"comp_size";i:28;s:11:"comp_method";i:0;}s:12:"size_written";i:23413316;}
+0175.882 () Google Drive: Requesting byte range: 2097153 - 4194305 (39.1 - 78.2 %)
+0162.890 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_ZipArchive, starting index 0
+0162.891 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_PclZip, starting index 0
+0164.894 () Cleaning up rubbish...
+0161.975 () Google Drive: download: exception: Failed to obtain any new data at size: 2097153 (line: 1312, file: /home/inditclx/public_html/wp-content/plugins/updraftplus/methods/googledrive.php)
+0162.945 () Entity: others
+0162.945 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, type=others, info=a:2:{s:4:"path";s:37:"/home/inditclx/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0162.946 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, 3.2 MB)
+0162.946 () Unpack resumption may be possible: zip_starting_index=0, last_exists=, last_size=n/a, last_status=a:3:{s:5:"index";i:141;s:4:"info";a:7:{s:4:"name";s:13:"index.php-old";s:5:"index";i:141;s:3:"crc";i:4212199498;s:4:"size";i:28;s:5:"mtime";i:1594152548;s:9:"comp_size";i:28;s:11:"comp_method";i:0;}s:12:"size_written";i:23413316;}
+0181.878 () Google Drive: Requesting byte range: 4194306 - 5366110 (78.2 - 100 %)
+0162.974 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_ZipArchive, starting index 0
+0162.974 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_PclZip, starting index 0
+0165.954 () Cleaning up rubbish...
+0186.882 () Google Drive: download: exception: Failed to obtain any new data at size: 4194306 (line: 1312, file: /home/inditclx/public_html/wp-content/plugins/updraftplus/methods/googledrive.php)
+0186.890 () Entity: others
+0186.890 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, type=others, info=a:2:{s:4:"path";s:37:"/home/inditclx/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0186.891 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, 1.1 MB)
+0186.891 () Unpack resumption may be possible: zip_starting_index=0, last_exists=, last_size=n/a, last_status=a:3:{s:5:"index";i:141;s:4:"info";a:7:{s:4:"name";s:13:"index.php-old";s:5:"index";i:141;s:3:"crc";i:4212199498;s:4:"size";i:28;s:5:"mtime";i:1594152548;s:9:"comp_size";i:28;s:11:"comp_method";i:0;}s:12:"size_written";i:23413316;}
+0186.895 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_ZipArchive, starting index 0
+0186.895 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_PclZip, starting index 0
+0187.904 () Cleaning up rubbish...
+0361.957 () Google Drive: Requesting byte range: 31457295 - 33554447 (34.2 - 36.5 %)
+0395.928 () Google Drive: Requesting byte range: 33554448 - 35651600 (36.5 - 38.7 %)
+0428.940 () Google Drive: Requesting byte range: 35651601 - 37748753 (38.7 - 41 %)
+0462.936 () Google Drive: Requesting byte range: 37748754 - 39845906 (41 - 43.3 %)
+0000.009 () Opened log file at time: Thu, 09 Jul 2020 22:13:57 +0000 on https://inditribes.co.in
+0000.009 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.5M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0469.927 () Google Drive: Requesting byte range: 39845907 - 41943059 (43.3 - 45.6 %)
+0004.013 () Free space on disk containing Updraft's temporary directory: 2499144.3 MB
+0005.015 () An error condition has occurred for the first time during this job
+0005.015 () Restore failed...
+0005.015 () Restore failed...
+0005.015 () Restore failed
+0478.944 () Google Drive: Requesting byte range: 41943060 - 44040212 (45.6 - 47.9 %)
+0513.951 () Google Drive: Requesting byte range: 44040213 - 46137365 (47.9 - 50.1 %)
+0547.968 () Google Drive: Requesting byte range: 46137366 - 48234518 (50.1 - 52.4 %)
+0000.009 () Opened log file at time: Thu, 09 Jul 2020 22:15:43 +0000 on https://inditribes.co.in
+0000.010 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.5M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0004.003 () Free space on disk containing Updraft's temporary directory: 2499144.2 MB
+0004.995 () An error condition has occurred for the first time during this job
+0004.995 () Restore failed...
+0004.995 () Restore failed...
+0004.995 () Restore failed
+0581.940 () Google Drive: Requesting byte range: 48234519 - 50331671 (52.4 - 54.7 %)
+0612.986 () Google Drive: Requesting byte range: 50331672 - 52428824 (54.7 - 57 %)
+0643.498 () Google Drive: Requesting byte range: 52428825 - 54525977 (57 - 59.2 %)
+0673.955 () Google Drive: Requesting byte range: 54525978 - 56623130 (59.2 - 61.5 %)
+0676.351 () Google Drive: Requesting byte range: 56623131 - 58720283 (61.5 - 63.8 %)
+0706.997 () Google Drive: Requesting byte range: 58720284 - 60817436 (63.8 - 66.1 %)
+0710.998 () Google Drive: Requesting byte range: 60817437 - 62914589 (66.1 - 68.4 %)
+0716.925 () Google Drive: Requesting byte range: 62914590 - 65011742 (68.4 - 70.6 %)
+0720.970 () Google Drive: Requesting byte range: 65011743 - 67108895 (70.6 - 72.9 %)
+0754.945 () Google Drive: Requesting byte range: 67108896 - 69206048 (72.9 - 75.2 %)
+0760.961 () Google Drive: Requesting byte range: 69206049 - 71303201 (75.2 - 77.5 %)
+0796.938 () Google Drive: Requesting byte range: 71303202 - 73400354 (77.5 - 79.8 %)
+0804.940 () Google Drive: Requesting byte range: 73400355 - 75497507 (79.8 - 82 %)
+0841.939 () Google Drive: Requesting byte range: 75497508 - 77594660 (82 - 84.3 %)
+0849.923 () Google Drive: Requesting byte range: 77594661 - 79691813 (84.3 - 86.6 %)
+0855.925 () Google Drive: Requesting byte range: 79691814 - 81788966 (86.6 - 88.9 %)
+0891.933 () Google Drive: Requesting byte range: 81788967 - 83886119 (88.9 - 91.1 %)
+0897.931 () Google Drive: download: exception: Error refreshing the OAuth2 token, message: '{
+  "error": "invalid_request",
+  "error_description": "Missing required parameter: refresh_token"
+}' (line: 357, file: /home/inditclx/public_html/wp-content/plugins/updraftplus/includes/Google/Auth/OAuth2.php)
+0000.979 () Opened log file at time: Thu, 09 Jul 2020 22:21:26 +0000 on https://inditribes.co.in
+0000.980 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 102M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0007.978 () Free space on disk containing Updraft's temporary directory: 2499086.6 MB
+0000.007 () Opened log file at time: Thu, 09 Jul 2020 22:23:32 +0000 on https://inditribes.co.in
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.5M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.108 () Free space on disk containing Updraft's temporary directory: 2499088.7 MB
+0001.003 () An error condition has occurred for the first time during this job
+0001.003 () Restore failed...
+0001.003 () Restore failed...
+0001.003 () Restore failed

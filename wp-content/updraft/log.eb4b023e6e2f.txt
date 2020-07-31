@@ -1,0 +1,18 @@
+0000.003 () Opened log file at time: Thu, 09 Jul 2020 21:02:43 +0000 on https://inditribes.co.in
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 102M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0003.991 () Free space on disk containing Updraft's temporary directory: 2498495.2 MB
+0000.002 () Opened log file at time: Thu, 09 Jul 2020 21:04:51 +0000 on https://inditribes.co.in
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.6M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0001.027 () Free space on disk containing Updraft's temporary directory: 2498467.1 MB
+0001.052 () Ensuring WP_Filesystem is setup for a restore
+0001.053 () WP_Filesystem is setup and ready for a restore
+0002.022 () Restore job started. Entities to restore: others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0002.025 () Entity: others
+0002.026 () restore_backup(backup_file=backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, type=others, info=a:2:{s:4:"path";s:37:"/home/inditclx/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0002.026 () Unpacking backup... (backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip, 5.1 MB)
+0002.063 () Unzipping backup_2020-07-08-0442_Indi_Tribes_639005be12d8-others.zip to /home/inditclx/public_html/wp-content/upgrade/cb3b8472/ using UpdraftPlus_ZipArchive, starting index 0
+0005.999 () Unzip progress: 142 out of 142 files (22.3 MB, index.php-old)
+0006.006 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/home/inditclx/public_html/wp-content/wpo-cache)
+0006.010 () Restore failed...
+0006.010 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/home/inditclx/public_html/wp-content/wpo-cache)
+0006.010 () Restore failed

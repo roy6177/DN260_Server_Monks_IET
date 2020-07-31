@@ -1,0 +1,196 @@
+0000.003 () Opened log file at time: Fri, 10 Jul 2020 00:06:31 +0000 on https://inditribes.co.in
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 102M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.129 () Free space on disk containing Updraft's temporary directory: 2498767.2 MB
+0000.004 () Opened log file at time: Fri, 10 Jul 2020 00:06:39 +0000 on https://inditribes.co.in
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.19 (cgi-fcgi, Linux cp-in-11.webhostbox.net 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1048M (used: 103.4M | 105M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.101 () Free space on disk containing Updraft's temporary directory: 2498767 MB
+0000.125 () Ensuring WP_Filesystem is setup for a restore
+0000.126 () WP_Filesystem is setup and ready for a restore
+0000.152 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpmb_options","wpmb_users","wpmb_usermeta","wpmb_actionscheduler_actions","wpmb_actionscheduler_claims","wpmb_actionscheduler_groups","wpmb_actionscheduler_logs","wpmb_commentmeta","wpmb_comments","wpmb_links","wpmb_postmeta","wpmb_posts","wpmb_term_relationships","wpmb_term_taxonomy","wpmb_termmeta","wpmb_terms","wpmb_wc_category_lookup","wpmb_wc_product_meta_lookup","wpmb_wc_tax_rate_classes","wpmb_woocommerce_order_itemmeta","wpmb_woocommerce_payment_tokenmeta","wpmb_mailchimp_carts","wpmb_mailchimp_jobs","wpmb_tinvwl_analytics","wpmb_tinvwl_items","wpmb_tinvwl_lists","wpmb_tm_taskmeta","wpmb_tm_tasks","wpmb_wc_admin_note_actions","wpmb_wc_admin_notes","wpmb_wc_cancel_orders","wpmb_wc_customer_lookup","wpmb_wc_download_log","wpmb_wc_order_coupon_lookup","wpmb_wc_order_product_lookup","wpmb_wc_order_stats","wpmb_wc_order_tax_lookup","wpmb_wc_webhooks","wpmb_wcfm_daily_analysis","wpmb_wcfm_detailed_analysis","wpmb_wcfm_enquiries","wpmb_wcfm_enquiries_meta","wpmb_wcfm_enquiries_response","wpmb_wcfm_enquiries_response_meta","wpmb_wcfm_fbc_chat_rows","wpmb_wcfm_fbc_chat_sessions","wpmb_wcfm_fbc_chat_visitors","wpmb_wcfm_fbc_offline_messages","wpmb_wcfm_following_followers","wpmb_wcfm_marketplace_orders","wpmb_wcfm_marketplace_orders_meta","wpmb_wcfm_marketplace_product_multivendor","wpmb_wcfm_marketplace_refund_request","wpmb_wcfm_marketplace_refund_request_meta","wpmb_wcfm_marketplace_reverse_withdrawal","wpmb_wcfm_marketplace_reverse_withdrawal_meta","wpmb_wcfm_marketplace_review_rating_meta","wpmb_wcfm_marketplace_reviews","wpmb_wcfm_marketplace_reviews_response","wpmb_wcfm_marketplace_reviews_response_meta","wpmb_wcfm_marketplace_shipping_zone_locations","wpmb_wcfm_marketplace_shipping_zone_methods","wpmb_wcfm_marketplace_store_taxonomies","wpmb_wcfm_marketplace_vendor_ledger","wpmb_wcfm_marketplace_withdraw_request","wpmb_wcfm_marketplace_withdraw_request_meta","wpmb_wcfm_membership_subscription","wpmb_wcfm_messages","wpmb_wcfm_messages_modifier","wpmb_wcfm_messages_stat","wpmb_wcfm_support","wpmb_wcfm_support_meta","wpmb_wcfm_support_response","wpmb_wcfm_support_response_meta","wpmb_woocommerce_api_keys","wpmb_woocommerce_attribute_taxonomies","wpmb_woocommerce_downloadable_product_permissions","wpmb_woocommerce_log","wpmb_woocommerce_order_items","wpmb_woocommerce_payment_tokens","wpmb_woocommerce_sessions","wpmb_woocommerce_shipping_zone_locations","wpmb_woocommerce_shipping_zone_methods","wpmb_woocommerce_shipping_zones","wpmb_woocommerce_tax_rate_locations","wpmb_woocommerce_tax_rates","wpmb_wpforms_tasks_meta","wpmb_wpnotif_mobile_otp","wpmb_wpnotif_newsletter","wpmb_wpnotif_newsletter_history","wpmb_wpnotif_newsletter_send_history","wpmb_wpnotif_sms_app","wpmb_wpnotif_subgroups","wpmb_wpnotif_subgroups_subscribers","wpmb_wpnotif_subscribers","wpmb_wpnotif_whatsapp_messages"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.161 () Entity: db
+0000.161 () restore_backup(backup_file=backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-db.gz, type=db, info=a:0:{}, last_one=)
+0000.161 () Unpacking backup... (backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-db.gz, 1 Mb)
+0000.174 () Database successfully unpacked
+0000.174 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.174 () Using direct MySQL access; value of use_mysqli is: 1
+0000.175 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION
+0000.201 () Max packet size: 256 MB
+0000.201 () Entering maintenance mode
+0000.201 () Enabling Maintenance mode&#8230;
+0000.202 () Backup of: https://inditribes.co.in
+0000.203 () Content URL: https://inditribes.co.in/wp-content
+0000.203 () Uploads URL: https://inditribes.co.in/wp-content/uploads
+0000.203 () Old table prefix: wpmb_
+0000.204 () Site information: multisite=0
+0000.206 () New table prefix: wpmb_
+0000.220 () Processing table (MyISAM): wpmb_options
+0001.134 () Restoring prior UD configuration (table: wpmb_options; keys: 4)
+0001.327 () Processing table (MyISAM): wpmb_users
+0001.362 () Processing table (MyISAM): wpmb_usermeta
+0001.438 () Processing table (MyISAM): wpmb_actionscheduler_actions
+0001.540 () Processing table (MyISAM): wpmb_actionscheduler_claims
+0001.555 () Processing table (MyISAM): wpmb_actionscheduler_groups
+0001.579 () Processing table (MyISAM): wpmb_actionscheduler_logs
+0001.676 () Processing table (MyISAM): wpmb_commentmeta
+0001.718 () Processing table (MyISAM): wpmb_comments
+0001.767 () Processing table (MyISAM): wpmb_links
+0001.790 () Processing table (MyISAM): wpmb_postmeta
+0001.805 () Database queries processed: 50 in 1.62 seconds
+0002.604 () Processing table (MyISAM): wpmb_posts
+0003.046 () Processing table (MyISAM): wpmb_term_relationships
+0003.090 () Processing table (MyISAM): wpmb_term_taxonomy
+0003.145 () Processing table (MyISAM): wpmb_termmeta
+0003.213 () Processing table (MyISAM): wpmb_terms
+0003.262 () Processing table (MyISAM): wpmb_wc_category_lookup
+0003.303 () Processing table (MyISAM): wpmb_wc_product_meta_lookup
+0003.351 () Processing table (MyISAM): wpmb_wc_tax_rate_classes
+0003.386 () Processing table (MyISAM): wpmb_woocommerce_order_itemmeta
+0003.455 () Processing table (MyISAM): wpmb_woocommerce_payment_tokenmeta
+0003.498 () Processing table (MyISAM): wpmb_mailchimp_carts
+0003.542 () Processing table (MyISAM): wpmb_mailchimp_jobs
+0003.576 () Database queries processed: 100 in 3.39 seconds
+0003.577 () Processing table (MyISAM): wpmb_tinvwl_analytics
+0003.619 () Processing table (MyISAM): wpmb_tinvwl_items
+0003.660 () Processing table (MyISAM): wpmb_tinvwl_lists
+0003.712 () Processing table (MyISAM): wpmb_tm_taskmeta
+0003.747 () Processing table (MyISAM): wpmb_tm_tasks
+0003.769 () Processing table (MyISAM): wpmb_wc_admin_note_actions
+0003.819 () Processing table (MyISAM): wpmb_wc_admin_notes
+0003.880 () Processing table (InnoDB): wpmb_wc_cancel_orders
+0003.929 () Processing table (MyISAM): wpmb_wc_customer_lookup
+0003.961 () Processing table (MyISAM): wpmb_wc_download_log
+0003.987 () Processing table (MyISAM): wpmb_wc_order_coupon_lookup
+0004.011 () Processing table (MyISAM): wpmb_wc_order_product_lookup
+0004.077 () Processing table (MyISAM): wpmb_wc_order_stats
+0004.127 () Processing table (MyISAM): wpmb_wc_order_tax_lookup
+0004.156 () Processing table (MyISAM): wpmb_wc_webhooks
+0004.180 () Processing table (MyISAM): wpmb_wcfm_daily_analysis
+0004.225 () Processing table (MyISAM): wpmb_wcfm_detailed_analysis
+0004.306 () Processing table (MyISAM): wpmb_wcfm_enquiries
+0004.347 () Processing table (MyISAM): wpmb_wcfm_enquiries_meta
+0004.384 () Processing table (MyISAM): wpmb_wcfm_enquiries_response
+0004.415 () Database queries processed: 150 in 4.23 seconds
+0004.445 () Processing table (MyISAM): wpmb_wcfm_enquiries_response_meta
+0004.464 () Processing table (MyISAM): wpmb_wcfm_fbc_chat_rows
+0004.483 () Processing table (MyISAM): wpmb_wcfm_fbc_chat_sessions
+0004.499 () Processing table (MyISAM): wpmb_wcfm_fbc_chat_visitors
+0004.516 () Processing table (MyISAM): wpmb_wcfm_fbc_offline_messages
+0004.543 () Processing table (MyISAM): wpmb_wcfm_following_followers
+0004.570 () Processing table (MyISAM): wpmb_wcfm_marketplace_orders
+0004.635 () Processing table (MyISAM): wpmb_wcfm_marketplace_orders_meta
+0004.688 () Processing table (MyISAM): wpmb_wcfm_marketplace_product_multivendor
+0004.727 () Processing table (MyISAM): wpmb_wcfm_marketplace_refund_request
+0004.788 () Processing table (MyISAM): wpmb_wcfm_marketplace_refund_request_meta
+0004.837 () Processing table (MyISAM): wpmb_wcfm_marketplace_reverse_withdrawal
+0004.859 () Processing table (MyISAM): wpmb_wcfm_marketplace_reverse_withdrawal_meta
+0004.875 () Processing table (MyISAM): wpmb_wcfm_marketplace_review_rating_meta
+0004.896 () Processing table (MyISAM): wpmb_wcfm_marketplace_reviews
+0004.911 () Processing table (MyISAM): wpmb_wcfm_marketplace_reviews_response
+0004.927 () Processing table (MyISAM): wpmb_wcfm_marketplace_reviews_response_meta
+0004.947 () Processing table (MyISAM): wpmb_wcfm_marketplace_shipping_zone_locations
+0004.961 () Processing table (MyISAM): wpmb_wcfm_marketplace_shipping_zone_methods
+0004.980 () Processing table (MyISAM): wpmb_wcfm_marketplace_store_taxonomies
+0005.013 () Processing table (MyISAM): wpmb_wcfm_marketplace_vendor_ledger
+0005.059 () Database queries processed: 200 in 4.88 seconds
+0005.060 () Processing table (MyISAM): wpmb_wcfm_marketplace_withdraw_request
+0005.091 () Processing table (MyISAM): wpmb_wcfm_marketplace_withdraw_request_meta
+0005.114 () Processing table (MyISAM): wpmb_wcfm_membership_subscription
+0005.144 () Processing table (MyISAM): wpmb_wcfm_messages
+0005.189 () Processing table (MyISAM): wpmb_wcfm_messages_modifier
+0005.211 () Processing table (MyISAM): wpmb_wcfm_messages_stat
+0005.231 () Processing table (MyISAM): wpmb_wcfm_support
+0005.247 () Processing table (MyISAM): wpmb_wcfm_support_meta
+0005.268 () Processing table (MyISAM): wpmb_wcfm_support_response
+0005.294 () Processing table (MyISAM): wpmb_wcfm_support_response_meta
+0005.316 () Processing table (MyISAM): wpmb_woocommerce_api_keys
+0005.345 () Processing table (MyISAM): wpmb_woocommerce_attribute_taxonomies
+0005.381 () Processing table (MyISAM): wpmb_woocommerce_downloadable_product_permissions
+0005.414 () Processing table (MyISAM): wpmb_woocommerce_log
+0005.436 () Processing table (MyISAM): wpmb_woocommerce_order_items
+0005.483 () Processing table (MyISAM): wpmb_woocommerce_payment_tokens
+0005.535 () Processing table (MyISAM): wpmb_woocommerce_sessions
+0005.595 () Processing table (MyISAM): wpmb_woocommerce_shipping_zone_locations
+0005.629 () Processing table (MyISAM): wpmb_woocommerce_shipping_zone_methods
+0005.660 () Processing table (MyISAM): wpmb_woocommerce_shipping_zones
+0005.717 () Database queries processed: 250 in 5.54 seconds
+0005.718 () Processing table (MyISAM): wpmb_woocommerce_tax_rate_locations
+0005.737 () Processing table (MyISAM): wpmb_woocommerce_tax_rates
+0005.763 () Processing table (MyISAM): wpmb_wpforms_tasks_meta
+0005.833 () Processing table (MyISAM): wpmb_wpnotif_mobile_otp
+0005.855 () Processing table (MyISAM): wpmb_wpnotif_newsletter
+0005.897 () Processing table (MyISAM): wpmb_wpnotif_newsletter_history
+0005.924 () Processing table (MyISAM): wpmb_wpnotif_newsletter_send_history
+0005.948 () Processing table (MyISAM): wpmb_wpnotif_sms_app
+0005.965 () Processing table (MyISAM): wpmb_wpnotif_subgroups
+0005.983 () Processing table (MyISAM): wpmb_wpnotif_subgroups_subscribers
+0006.003 () Processing table (MyISAM): wpmb_wpnotif_subscribers
+0006.032 () Processing table (MyISAM): wpmb_wpnotif_whatsapp_messages
+0006.097 () UpdraftPlus Vault: this site has not been connected - check your settings
+0009.495 () Unlocking database and leaving maintenance mode
+0009.495 () Disabling Maintenance mode&#8230;
+0009.496 () Finished: lines processed: 278 in 9.31 seconds
+0009.497 () Cleaning up rubbish...
+0009.534 () Entity: plugins
+0009.534 () restore_backup(backup_file=backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:45:"/home/inditclx/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0009.534 () Unpacking backup... (backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-plugins.zip, 88.8 MB)
+0009.549 () Unzipping backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-plugins.zip to /home/inditclx/public_html/wp-content/upgrade/66156f4d/ using UpdraftPlus_ZipArchive, starting index 0
+0011.217 () Unzip progress: 3720 out of 21576 files (7 KB, plugins/wc-multivendor-marketplace/controllers/reviews/wcfmmp-controller-reviews-submit.php)
+0011.557 () Unzip progress: 4721 out of 21576 files (14.4 MB, plugins/wc-multivendor-marketplace/lang/wc-multivendor-marketplace-zh_TW.mo)
+0011.924 () Unzip progress: 5722 out of 21576 files (27.5 MB, plugins/updraftplus/updraftplus/includes/Google/Service/Groupssettings.php)
+0012.414 () Unzip progress: 6723 out of 21576 files (46.2 MB, plugins/updraftplus/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ServiceDescriptionFactory.php)
+0012.901 () Unzip progress: 7724 out of 21576 files (66 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/CurlException.php)
+0013.221 () Unzip progress: 8725 out of 21576 files (76.8 MB, plugins/wp-optimize/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php)
+0013.520 () Unzip progress: 9726 out of 21576 files (86.2 MB, plugins/woocommerce/includes/gateways/bacs/class-wc-gateway-bacs.php)
+0013.991 () Unzip progress: 10727 out of 21576 files (103.9 MB, plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php)
+0014.504 () Unzip progress: 11728 out of 21576 files (126.6 MB, plugins/woocommerce/assets/js/zeroclipboard/jquery.zeroclipboard.js)
+0014.986 () Unzip progress: 12729 out of 21576 files (148.6 MB, plugins/wpforms-lite/assets/images/welcome-testimonial-bill.jpg)
+0015.656 () Unzip progress: 13730 out of 21576 files (176.7 MB, plugins/yith-woocommerce-compare/assets/images/05-icon.png)
+0016.121 () Unzip progress: 14731 out of 21576 files (198.1 MB, plugins/wc-frontend-manager/assets/css/wcfm-style-collapsible.css)
+0016.542 () Unzip progress: 15732 out of 21576 files (214.4 MB, plugins/jetpack/_inc/blocks/images/slideshow_example-2-2c82eb59aaea53932f5e718e17284db7.jpg)
+0016.946 () Unzip progress: 16733 out of 21576 files (227.3 MB, plugins/jetpack/modules/widgets/search/css/search-widget-admin-ui.css)
+0017.304 () Unzip progress: 17734 out of 21576 files (241.1 MB, plugins/wpnotif/gateways/aws/Aws/Ssm/Exception/SsmException.php)
+0017.600 () Unzip progress: 18735 out of 21576 files (250.2 MB, plugins/wpnotif/gateways/alibaba/psr/http-message/src/RequestInterface.php)
+0017.985 () Unzip progress: 19736 out of 21576 files (265.5 MB, plugins/wpnotif/libphonenumber/giggsey/libphonenumber-for-php/src/carrier/data/en/970.php)
+0018.240 () Unzip progress: 20737 out of 21576 files (269.4 MB, plugins/wpnotif/Twilio/Rest/Video/V1/CompositionInstance.php)
+0018.452 () Unzip progress: 21576 out of 21576 files (273.7 MB, plugins/wpnotif/Twilio/Rest/Studio/V1/Flow/Execution/ExecutionStepContext.php)
+0018.537 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.537 () Moving old data: can potentially use wp_filesystem method / -old
+0018.537 () Moving old data out of the way...
+0020.441 () Top-level entities being moved: wc-multivendor-marketplace, mailchimp-for-woocommerce, wc-frontend-manager-elementor, cartflows, recently-viewed-products, ajax-search-for-woocommerce, woo-refund-and-exchange-lite, updraftplus, mobile-login-woocommerce, woovina-extra, nextend-facebook-connect, mobile-login-woocommerce.zip, wc-cancel-order, nav-menu-roles, wc-multivendor-membership, woocommerce, kadence-woocommerce-email-designer, user-registration, custom-order-statuses-woocommerce, social-login-woocommerce, wpforms-lite, woo-cart-abandonment-recovery, elementor, index.php, woowbot-woocommerce-chatbot, yith-woocommerce-compare, akismet, sms-alert, wc-frontend-manager, aftership-woocommerce-tracking, woovina-elementor-widgets, woocommerce-services, mojo-marketplace-wp-plugin, jetpack, woocommerce-gateway-stripe, woo-gst, easy-login-woocommerce-premium, woovina-custom-sidebar, hello.php, google-language-translator, ti-woocommerce-wishlist, wpnotif
+0020.456 () Moving unpacked backup into place...
+0022.035 () Top-level entities being moved: wc-multivendor-marketplace, mailchimp-for-woocommerce, wc-frontend-manager-elementor, recently-viewed-products, ajax-search-for-woocommerce, woo-refund-and-exchange-lite, updraftplus, mobile-login-woocommerce, woovina-extra, mobile-login-woocommerce.zip, wc-cancel-order, wp-optimize, wc-multivendor-membership, woocommerce, kadence-woocommerce-email-designer, custom-order-statuses-woocommerce, easy-login-woocommerce, wpforms-lite, elementor, index.php, woowbot-woocommerce-chatbot, user-menus, yith-woocommerce-compare, akismet, sms-alert, wc-frontend-manager, aftership-woocommerce-tracking, woovina-elementor-widgets, woocommerce-services, mojo-marketplace-wp-plugin, jetpack, woocommerce-gateway-stripe, woo-gst, woovina-custom-sidebar, hello.php, google-language-translator, ti-woocommerce-wishlist, wpnotif
+0022.051 () Cleaning up rubbish...
+0022.060 () Entity: themes
+0022.060 () restore_backup(backup_file=backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-themes.zip, type=themes, info=a:2:{s:4:"path";s:44:"/home/inditclx/public_html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0022.060 () Unpacking backup... (backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-themes.zip, 16.2 MB)
+0022.060 () Unzipping backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-themes.zip to /home/inditclx/public_html/wp-content/upgrade/55b03603/ using UpdraftPlus_ZipArchive, starting index 0
+0022.890 () Unzip progress: 1002 out of 1928 files (23.3 MB, themes/woovina/assets/img/niche-26/icon-5.jpg)
+0023.377 () Unzip progress: 1928 out of 1928 files (48 MB, themes/sinatra/inc/customizer/controls/widget/class-sinatra-customizer-control-widget.php)
+0023.392 () Moving old data: filesystem method / updraft_dir is potentially possible
+0023.392 () Moving old data: can potentially use wp_filesystem method / -old
+0023.392 () Moving old data out of the way...
+0023.545 () Top-level entities being moved: twentyseventeen, flatshop, twentytwenty, storefront, index.php, twentynineteen, woovina, sinatra
+0023.547 () Moving unpacked backup into place...
+0023.670 () Top-level entities being moved: twentyseventeen, flatshop, twentytwenty, storefront, index.php, twentynineteen, woovina, sinatra
+0023.672 () Cleaning up rubbish...
+0023.682 () Entity: uploads
+0023.682 () restore_backup(backup_file=backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:45:"/home/inditclx/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0023.683 () Unpacking backup... (backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-uploads.zip, 38.7 MB)
+0023.683 () Unzipping backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-uploads.zip to /home/inditclx/public_html/wp-content/upgrade/7c0f5097/ using UpdraftPlus_ZipArchive, starting index 0
+0024.657 () Unzip progress: 1002 out of 3039 files (20.3 MB, uploads/2020/06/decorative1-300x300.jpg)
+0024.957 () Unzip progress: 2003 out of 3039 files (32 MB, uploads/xootix-sms-sdks/twilio/src/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/MobileOptions.php)
+0025.293 () Unzip progress: 3004 out of 3039 files (42.8 MB, uploads/2018/11/banner-01-300x110.png)
+0025.309 () Unzip progress: 3039 out of 3039 files (43.5 MB, uploads/2018/11/banner-02-100x100.png)
+0025.327 () Moving old data: filesystem method / updraft_dir is potentially possible
+0025.327 () Moving old data: can potentially use wp_filesystem method / -old
+0025.327 () Moving old data out of the way...
+0025.563 () Moving unpacked backup into place...
+0025.752 () Cleaning up rubbish...
+0025.763 () Entity: others
+0025.763 () restore_backup(backup_file=backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-others.zip, type=others, info=a:2:{s:4:"path";s:37:"/home/inditclx/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0025.763 () Unpacking backup... (backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-others.zip, 2.6 MB)
+0025.763 () Unzipping backup_2020-07-03-0025_Indi_Tribes_221e90d9465b-others.zip to /home/inditclx/public_html/wp-content/upgrade/cfd443bc/ using UpdraftPlus_ZipArchive, starting index 0
+0025.920 () Unzip progress: 67 out of 67 files (11.2 MB, index.php)
+0025.923 () Cleaning up rubbish...
+0026.023 () Restore successful!
+0026.023 () Restore successful
