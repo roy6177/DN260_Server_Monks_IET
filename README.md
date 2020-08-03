@@ -1,6 +1,8 @@
 # DN260_Server_Monks_IET
 (Inditribes) E-Marketplace for tribals.
 
+# Final Project Presentation is in Project Documentation Folder
+
 Website Documentation folder contains the proposed plan pdf and accomplished tasks as per proposal.
 
 Website Screenshot folder contains the screenshot of different pages of our website "Inditribes"
